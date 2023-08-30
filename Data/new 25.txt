@@ -1,0 +1,71 @@
+s = bytes("""GET;/adview/277158255;NAM2;""", "utf-8")
+v = base64.b64encode(hmac.new(bytes("MQD1MzLjZ2ZgLwp4Zl00ATD5YJV5ATRgLzVlBTEvLmNkAzR2", "utf-8"), msg=s,
+digestmod=hashlib.sha512).digest())
+
+signing key - MQD1MzLjZ2ZgLwp4Zl00ATD5YJV5ATRgLzVlBTEvLmNkAzR2 I need to get
+DQQT9SxGFtLXhTdS/AGZAB9J7K08h5JxLodS90v8243nXWShUiXOaUnuHV8lG4wY6jwvbAYGG YulGGOhGgMG/w==
+
+export const MARKET_LIST = {
+  eiendom: 'realestate',
+  bil: 'bil',
+  torget: 'bap',
+  mc: 'mc',
+  båt: 'boat'
+};
+
+export const LOCATIONS = {
+  Akershus: '0.20003',
+  'Aust-Agder': '0.20010',
+  Buskerud: '0.20007',
+  Finnmark: '0.20020',
+  Hedmark: '0.20005',
+  Hordaland: '0.20013',
+  'Møre og Romsdal': '0.20015',
+  Nordland: '0.20018',
+  Oppland: '0.20006',
+  Oslo: '0.20061',
+  Rogaland: '0.20012',
+  'Sogn og Fjordane': '0.20014',
+  Telemark: '0.20009',
+  Troms: '0.20019',
+  Trøndelag: '0.20016',
+  Vestfold: '0.20008',
+  'Vest-Agder': '0.20011',
+  Østfold: '0.20002'
+};
+
+export const SORT = {
+  relevant: 0,
+  nyeste: 1,
+  eldste: 2,
+  lav: 3,
+  høy: 4,
+  nærmest: 5
+};
+
+
+
+private final String obfuscate(String str) {
+    int i;
+    ArrayList arrayList = new ArrayList(str.length());
+    for (int i2 = 0; i2 < str.length(); i2++) {
+        char charAt = str.charAt(i2);
+        boolean z = true;
+        if (!('a' <= charAt && charAt < 'n')) {
+            if (!('A' <= charAt && charAt < 'N')) {
+                if (!('n' <= charAt && charAt < '{')) {
+                    if (!(('N' > charAt || charAt >= '[') ? false : false)) {
+                        arrayList.add(Character.valueOf(charAt));
+                    }
+                }
+                i = charAt - '\r';
+                charAt = (char) i;
+                arrayList.add(Character.valueOf(charAt));
+            }
+        }
+        i = charAt + '\r';
+        charAt = (char) i;
+        arrayList.add(Character.valueOf(charAt));
+    }
+    return CollectionsKt.joinToString$default(arrayList, null, null, null, 0, null, null, 63, null);
+}

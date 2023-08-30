@@ -1,0 +1,19 @@
+BROADCAST EVERY ?
+
+
+GET https://apps.finn.no/broadcast/ HTTP/1.1
+Host: apps.finn.no
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Ab-Test-Device-Id: 7336f13b-fb7e-4743-a036-9dd2a5feb86b
+Feature-Toggles: force-strict-mode-in-debug,debug-button,pulse-unicorn,show-homescreen-transparency-dialog,apps.android.messaging.new-ui,force-search-results-rating-cat,apps.android.display-easter-eggs,apps.android.enable-glimr-ads,apps.android.enable-content-marketing-webview,apps.android.banner-ad-lazy-load-search-result,apps.android.native-app-feedback,apps.android.christmas_splash,apps.android.favorites.christmas_list,apps.android.bottombar.pride,apps.android.braze-content-cards,apps.android.motor-transaction.search-results-landing-page-entry-pos3,apps.android.campaign.job.saveSearch,apps.android.campaign.job.candidateProfile,apps.android.feature.motor.displayAdPosition,apps.android.disable_shipping_page,apps.android.disable_davs,apps.android.realestate_show_old_company_profile,apps.android.bap_staggered_grid_xml,apps.android.adview.realestate-nam-2-disabled-v2,apps.android.tjt-banner-disabled,apps.android.tjt-insurance,apps.android.makeofferflow.version_2.insurance,apps.android.set.sms_autofill,apps.android.set.show_adadmin_transaction_link,apps.android.job.candidateProfile.paywall.recommendations,apps.android.set.adinsertion_satisfaction_survey,transaction-journey-motor.experiments.shared,apps.android.job-profile-promo-text-experiment,apps.android.object-page-ad-load-offset,apps.android.result-page-ad-load-offset,apps.android.makeofferflow.version_2
+Build-Type: release
+User-Agent: FinnApp_And/230707-6e39e03 (Linux; U; Android 9; nb_no; Redmi Note 8 Build/PKQ1.190616.001) FINNNativeApp(UA spoofed for tracking) FinnApp_And
+FINN-Device-Info: Android, mobile
+VersionCode: 1003572197
+Session-Id: c2b5d205-4f68-444c-bd05-bbae06c46e9c
+Visitor-Id: 7336f13b-fb7e-4743-a036-9dd2a5feb86b
+FINN-App-Installation-Id: 7336f13b-fb7e-4743-a036-9dd2a5feb86b
+X-FINN-API-Version: 5
+X-FINN-API-Feature: 7,9,13,15,16,17,18,21,22,24,26,28,29,30,33,31,32,36,37,34,35,40,42,43,38,44,45,48,20,49
+FINN-GW-KEY: WtKeazZoP3wwgrkzQln+MruxIzxtULwdPJJtK8IbdJfFnWz7EOmQ1fuKzJG2pYfpHLCUYld334XjykxC0TPeVQ==
