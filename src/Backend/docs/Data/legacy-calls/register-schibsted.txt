@@ -1,0 +1,33 @@
+REGISTER WITH SCHIBSTED TRACKER
+
+
+POST https://cis.schibsted.com/api/v1/identify HTTP/2.0
+origin: null
+accept: application/json
+user-agent: Android-Pulse-Tracker/7.8.9
+content-type: application/json; charset=UTF-8
+content-length: 115
+accept-encoding: gzip
+
+{
+    "aaId": "022b139d-91de-4cdc-b2aa-7d91deb40220",
+    "deviceId": "022b139d-91de-4cdc-b2aa-7d91deb40220",
+    "doTracking": true
+}
+
+{
+    "code": 200,
+    "data": {
+        "adId": "022b139d-91de-4cdc-b2aa-7d91deb40220",
+        "anSyncUrl": "https://secure.adnxs.com/getuid?https://cis.schibsted.com/api/v1/sync?ANID=$UID",
+        "cisCookieSet": false,
+        "deviceId": "022b139d-91de-4cdc-b2aa-7d91deb40220",
+        "doAnSync": true,
+        "doTracking": true,
+        "environmentId": "ca528e76-ce76-4557-b746-717bc55e7768",
+        "jwe": "eyJpc3N1ZWRBdCI6IjIwMjMtMDctMTFUMTY6Mzk6MzdaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..erMfxsYopB394e7ZXciEDA.TtcdrgewPjmo_-KaRHNydljQJinLMup9EWqpYbjnFxTk7JQ-8icv6F1zcsYtpFbYd1OhtSBpbPfKjlQjX_5TimlWWVa0dUOBVavszYxRJstqeEiDCGmcnIK8ev_g5v__Yr2Guv8aVpD-L74OAiEwZPhgWNvdYfHjj-em4Cdls8LUzpeT_Wu1KFEZMOmFFtIrUxK3SeulVG6vaJTCHslgZg3GxPaQDC05RMWEBMpZ68s.KYwWJTJVQUVjHVzK7MJdKQ"
+    },
+    "errors": [],
+    "status": "OK",
+    "type": "cis_identity"
+}

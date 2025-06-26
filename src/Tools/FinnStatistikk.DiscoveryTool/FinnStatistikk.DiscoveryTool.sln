@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinnStatistikk.DiscoveryTool", "FinnStatistikk.DiscoveryTool\FinnStatistikk.DiscoveryTool.csproj", "{70B0C840-689B-4766-8747-9B26A4510C42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		docs\FinnStatistikk-Discovery-prompt.md = docs\FinnStatistikk-Discovery-prompt.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70B0C840-689B-4766-8747-9B26A4510C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B0C840-689B-4766-8747-9B26A4510C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B0C840-689B-4766-8747-9B26A4510C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B0C840-689B-4766-8747-9B26A4510C42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5ED0EC1-ADFA-4399-BB25-AC1744DCF66A}
+	EndGlobalSection
+EndGlobal

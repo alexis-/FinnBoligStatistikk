@@ -1,0 +1,496 @@
+GET /adview/413435582 HTTP/1.1
+FINN-GW-SERVICE: NAM2
+Host: appsgw.finn.no
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Ab-Test-Device-Id: 58449331-de4e-4192-95bc-eb94903a7c2b
+Feature-Toggles: force-strict-mode-in-debug,debug-button,unit-test_feature_on,assert-utils-crash-on-debug,pulse-unicorn,chucker-network-interceptor,show-homescreen-transparency-dialog,force-search-results-rating-cat,disable-english-formatting,dev_enable_recommerce_upload_photos,recommerce.bet.airpods-warning,apps.android.motor-transaction.search-results-landing-page-entry-pos3,apps.android.job_marketfront.marketing_banner,apps.android.disable_davs,apps.android.adview.realestate-leisure-and-abroad-nam-2-disabled-v2,apps.android.realestate.letting.external.disable,apps.android.realestate.map.pois.disable,apps.android.tjm-process-webview-disabled,apps.android.kindly-chatbot,apps.android.adin-payment-mobilepay,apps.android.set.enable_recommerce_partial_updates_ver2,apps.android.frontpage.categories_explorer,apps.android.frontpage.content_feed_api_v0.kill_switch,apps.android.frontpage.crossbrand_itemtype_support.kill_switch,apps.android.jobapply.nativeform-v3,apps.android.jobapply.nativeform.feedbackbox,apps.android.jobapply.nativeform.recommendationcards,apps.android.mobility.ad_insertion_updated_external_flow,apps.android.mobility.tjm.adin.consent.experiment.disabled,ad_insertion_mvv_wip,apps.android.advertising.enable-gam,apps.android.advertising.tracker-killswitch,apps.android.pulse.event.sent-count-tracking-v1,apps.android.advertising.prebid-config-killswitch,apps.android.advertising.frontpage-killswitch,apps.android.advertising.adnuntius-killswitch,apps.android.advertising.content-marketing-killswitch,apps.android.advertising.content-marketing-normal-text-killswitch,apps.android.advertising.enable-gam-test-campaign,android.rc.item-creation.eid-verification,apps.android.mobility.adinsertion.eid-verification,apps.android.disable-native-recommerce-full-ad-statistics-view,apps.android.disable-native-recommerce-buy-extra-visibility-view,apps.android.job.salary_comparison,apps.android.jobapply.ai-application-letter,tjt.experiment.buy-now-placement,apps.android.set.recommerce-camera-ad-insertion-flow-off,apps.android.set.recommerce_camera_guidance_off,apps.android.set.recommerce_camera_category_attribute_predictions_off,apps.android.tcf-disable-v2,apps.android.search-location-persistence,apps.android.enable_in_app_review,apps.android.review-feedback-enable-v2,apps.android.rating-feedback-enable-v2,advertising-android-killswitch,apps.android.disable-content-card,apps.android.realestate.hybrid-realtor-profiles,apps.android.mobility-landingpage-disabled-v1,apps.android-semantic-search.dev,apps.android.recom-discovery-explore-deeplink,job.android.marketfront.ai-search-entry,apps.android.recommerce-search-result-item-new-design,apps.android.recommerce.sort-filter.callout,apps.android.brand-nav.enable-follow
+Build-Type: release
+User-Agent: FinnApp_And/250616-85b30270 (Linux; U; Android 12; nb_no; sdk_gphone64_x86_64 Build/SE1A.220826.008) FINNNativeApp(UA spoofed for tracking) FinnApp_And
+FINN-Device-Info: Android, mobile
+VersionCode: 1004586734
+Session-Id: 205875f4-9606-48ad-8bd3-5f6ed424f164
+Visitor-Id: 58449331-de4e-4192-95bc-eb94903a7c2b
+FINN-App-Installation-Id: 58449331-de4e-4192-95bc-eb94903a7c2b
+x-finn-apps-adinput-version-name: viewings
+X-FINN-API-Version: 5
+X-FINN-API-Feature: 7,9,13,15,16,17,18,21,22,24,26,28,29,30,33,31,32,36,37,34,35,40,42,43,38,44,45,48,20,49,50
+x-nmp-os-name: Android
+x-nmp-os-version: 12
+x-nmp-device: sdk_gphone64_x86_64
+x-nmp-app-brand: finn
+x-nmp-app-version-name: 250616-85b30270
+x-nmp-app-build-number: 1004586734
+FINN-GW-KEY: cJITAM+2PkaeBRHc02LfjjnWFc7WXHGZFD0OjZ+kWeGlkozjslaudu0rHAF3Gk6KQsRPte37MPJX/efCY0kaxQ==
+
+
+HTTP/1.1 200 
+date: Wed, 25 Jun 2025 15:12:03 GMT
+vary: FINN-GW-SERVICE
+content-type: application/json
+strict-transport-security: max-age=15552000
+content-encoding: gzip
+transfer-encoding: chunked
+vary: Accept-Encoding
+
+
+{
+    "ad": {
+        "plot": {
+            "area": 114,
+            "owned": true,
+            "leaseholdPoint": false
+        },
+        "size": {
+            "primary": 54,
+            "usableAreaI": 54
+        },
+        "floor": 1,
+        "price": {
+            "total": 2572840,
+            "taxValue": 684490,
+            "suggestion": 2490000,
+            "salesCostSum": 82840,
+            "municipalFees": 9086,
+            "salesCostIncludesUnsafe": "2 490 000,- (Prisantydning)<br /><br />Omkostninger<br />545,- (Tingl.gebyr pantedokument)<br />545,- (Tingl.gebyr skj\u00f8te)<br />62 250,- (Dokumentavgift (forutsatt salgssum: 2 490 000,-))<br />19 500,- (Kj\u00f8psforsikring IF (valgfritt))<br />--------------------------------------------------------<br />82 840,- (Omkostninger totalt)<br />--------------------------------------------------------<br />2 572 840,- (Totalpris inkl. omkostninger)<br /><br />NB: Regnestykket forutsetter at det kun tinglyses ett pantedokument og at eiendommen selges til prisantydning."
+        },
+        "rooms": 3,
+        "title": "Urban 2-roms leilighet i flermannsbolig med fine originaldetaljer og romslig planl\u00f8sning. Meget sentral beliggenhet.",
+        "images": [
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_81f26cf5-a796-4871-ae21-6ebdb3f48e27.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Velkommen til Br\u00f8dregata 1, en lys og trivelig leilighet med meget sentral beliggenhet."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_f6045335-fb3c-4256-bc0b-3f40a15040ce.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Leiligheten har en lys og romslig stue med plass til b\u00e5de sofagruppe og spisebord."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_2854a85a-2a1c-4011-9621-2013ff3cedc5.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Rommet har flere store vinduer som slipper inn naturlig lys, og gir et \u00e5pent og innbydende preg."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_6dfe82d6-ff52-4379-b329-991704db2918.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Kj\u00f8kkenet ligger delvis \u00e5pent mot stuen og har en praktisk L-formet l\u00f8sning."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_37fd454c-9d98-466c-bbce-4822667c944e.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Veggene er malt i duse farger som st\u00e5r godt til gulvet i eik."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_1e39a793-aff8-4be0-ad1b-45346d188de8.jpg",
+                "width": 1600,
+                "height": 2400
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_8ab34dfe-728c-425d-894a-9c33f71ce510.jpg",
+                "width": 1600,
+                "height": 1067
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_d7045ca1-57b2-4e04-beb1-b82ea43258d4.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Kj\u00f8kkeninnredningen best\u00e5r av hvite slette fronter, integrert platetopp og stekeovn, samt frittst\u00e5ende kombiskap og oppvaskmaskin i st\u00e5l."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_3ff189f2-13af-47f0-8dc1-666b73f97929.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Benkeplaten er m\u00f8rk og gir god kontrast til mosaikkfliser p\u00e5 vegg."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_3c2a3de9-b1b6-4976-852a-6a1502f04a0a.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Store vinduer gir godt dagslys, og det er plass til frokostbord eller ekstra oppbevaring ved behov."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_747bdfa7-0cff-46c1-9721-e72b7caa4d55.jpg",
+                "width": 1600,
+                "height": 2400,
+                "description": "De originale d\u00f8rene mellom stuen og soverommet gir leiligheten karakter og s\u00e6rpreg."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_3beba458-c801-42c9-b93d-1677134fbdfe.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Soverommet har en lun atmosf\u00e6re og god plass til dobbeltseng og garderobel\u00f8sning."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_f72cdd8a-139f-4c7a-bfa9-735f182c4f6f.jpg",
+                "width": 1600,
+                "height": 2400,
+                "description": "Ogs\u00e5 her s\u00f8rger store vindusflater for dagslys, og en stilsikker fargepalett skaper en rolig sone."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_4fff551a-7b5e-4a49-a2ad-522368dc94d4.jpg",
+                "width": 1600,
+                "height": 2400,
+                "description": "Direkte adgang til badet via doble tred\u00f8rer er b\u00e5de praktisk og sjarmerende."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_77fe8a2a-952e-40fa-a979-fbca31ae74bf.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Badet er flislagt med lyse vegger og m\u00f8rke gulvfliser. Det er innredet med dusjkabinett, vegghengt toalett og servant med speil og belysning."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_39f8d573-c2a6-4e76-854c-9b2363a07f2a.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "En praktisk benk med integrert vaskemaskin/t\u00f8rketrommel og h\u00f8yskap gir godt med oppbevaring. Badet har downlights i himling og naturlig lys fra vindu."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_3f8951c3-b535-42a8-a165-4f18d2042234.jpg",
+                "width": 1600,
+                "height": 2400,
+                "description": "Gangen har flislagt gulv og plass til oppheng og oppbevaring."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_3e0268d9-f775-45f1-9717-25c26310e963.jpg",
+                "width": 1600,
+                "height": 1131,
+                "description": "Plantegning."
+            },
+            {
+                "uri": "https://images.finncdn.no/dynamic/default/2025/6/vertical-2/20/2/413/435/582_1af977ff-c5e5-43a3-bc2d-79e32f74bff5.jpg",
+                "width": 1600,
+                "height": 1067,
+                "description": "Leiligheten har en meget sentral beliggenhet, med gangavstand til alle sentrumsfasiliteter."
+            }
+        ],
+        "contact": [
+            {
+                "mobile": "93 60 97 29"
+            }
+        ],
+        "bedrooms": 1,
+        "disposed": false,
+        "location": {
+            "position": {
+                "lat": 58.969868092356194,
+                "lng": 5.735662871585781,
+                "links": {
+                    "norortho": {
+                        "uri": "https://www.finn.no/map?adId=413435582&lat=58.969868092356194&lon=5.735662871585781&zoom=14&showPin=true",
+                        "title": "Flyfoto"
+                    },
+                    "finnhybrid": {
+                        "uri": "https://www.finn.no/map?adId=413435582&lat=58.969868092356194&lon=5.735662871585781&zoom=14&showPin=true",
+                        "title": "Hybridkart"
+                    },
+                    "finnvector": {
+                        "uri": "https://www.finn.no/map?adId=413435582&lat=58.969868092356194&lon=5.735662871585781&zoom=14&showPin=true",
+                        "title": "Stort kart"
+                    }
+                },
+                "accuracy": 9,
+                "mapImage": "https://maptiles.finncdn.no/staticmap?lat=58.969868092356194&lng=5.735662871585781&zoom=14&size=400x300&maptype=norwayVector&showPin=true"
+            },
+            "postalCode": "4013",
+            "postalName": "Stavanger",
+            "countryCode": "NO",
+            "countryName": "Norge",
+            "streetAddress": "Br\u00f8dregata 1"
+        },
+        "viewings": [
+            {
+                "to": "18:45",
+                "date": "25.06.2025",
+                "from": "18:00",
+                "dateIso": "2025-06-25",
+                "iCalendarTo": "20250625T164500Z",
+                "iCalendarFrom": "20250625T160000Z"
+            },
+            {
+                "note": "Alle v\u00e5re visninger har p\u00e5melding. P\u00e5 denne m\u00e5ten sikrer vi at megler har god oversikt og tid til \u00e5 im\u00f8tekomme alle interessenter p\u00e5 beste m\u00e5te. Dette er veldig verdifullt for boligkj\u00f8pere og for oss. Det er enkelt \u00e5 melde seg p\u00e5, og du kan like enkelt melde deg av. \nKontakt ogs\u00e5 gjerne megler i forkant av visning dersom du har sp\u00f8rsm\u00e5l."
+            }
+        ],
+        "anonymous": false,
+        "cadastres": [
+            {
+                "landNumber": 55,
+                "titleNumber": 164,
+                "sectionNumber": 1,
+                "municipalityNumber": 1103
+            }
+        ],
+        "documents": [],
+        "adViewType": "realestate-home",
+        "facilities": [
+            "Parkett",
+            "Kabel-TV",
+            "Sentralt",
+            "Bredb\u00e5ndstilknytning"
+        ],
+        "floorplans": [],
+        "energyLabel": {
+            "class": "G",
+            "color": "RED"
+        },
+        "generalText": [
+            {
+                "heading": "Oppdragsnummer",
+                "textUnsafe": "301-25-0103"
+            },
+            {
+                "heading": "Eier",
+                "textUnsafe": "Marion Stuksrud"
+            },
+            {
+                "heading": "Eiendomstype",
+                "textUnsafe": "Selveierleilighet"
+            },
+            {
+                "heading": "Eierform",
+                "textUnsafe": "Eierseksjon"
+            },
+            {
+                "heading": "Betegnelse",
+                "textUnsafe": "Gnr. 55 Bnr. 164 Snr. 1 i Stavanger kommune<br />Ideell andel: 1/1"
+            },
+            {
+                "heading": "Etasje",
+                "textUnsafe": "1"
+            },
+            {
+                "heading": "Bygge\u00e5r",
+                "textUnsafe": "1842"
+            },
+            {
+                "heading": "Arealer og fordeling per etasje",
+                "textUnsafe": "Totalt BRA 54 kvm best\u00e5r av:<br />- BRA-i (internt bruksareal): 54 kvm<br /><br />Det totale bruksarealet fordeler seg som f\u00f8lger:<br />F\u00f8rste etasje:<br />- BRA: 54 kvm<br />- BRA-i: 54 kvm (Entr\u00e9, stue, kj\u00f8kken, soverom og bad).<br /><br />Leiligheten disponerer en utvendig bod p\u00e5 6 kvm. bod deles mellom leiligheter, ikke medtatt i arealet.<br /><br />Godkjente bygningstegninger er innhentet og ligger vedlagt i vedleggsheftet til salgsoppgaven. <br /><br />Vedlagte plantegninger er ikke m\u00e5lbare, og oppgitte arealer er hentet fra vedlagte tilstandsrapport.<br />Arealene er plassm\u00e5lt og beregnet med utgangspunkt i NS 3940:2023."
+            },
+            {
+                "heading": "Areal",
+                "textUnsafe": "Prim\u00e6rrom: 54 kvm, BRA-i: 54 kvm<br />"
+            },
+            {
+                "heading": "Antall rom",
+                "textUnsafe": "3"
+            },
+            {
+                "heading": "Tomtetype/areal",
+                "textUnsafe": "Fellestomt / 114 kvm"
+            },
+            {
+                "heading": "Beliggenhet",
+                "textUnsafe": "Eiendommen ligger i et sv\u00e6rt attraktivt og popul\u00e6rt boligomr\u00e5de i sentrum av Stavanger. Like ved boligen ligger vakre Breiavatnet med flott parkomr\u00e5de langs vannet. Langs nordsiden av vannet ligger Byparken og Stavanger Domkirke, og i s\u00f8r ligger jernbanestasjonen.<br /><br />Kun en kort spasertur fra leiligheten finner du v\u00e5gen med flere trendy kafeer og spisesteder. Stavangers kulturelle storstue, konserthuset fra 2012, ligger i Sandvig\u00e5, ca. 700 meter nordvest for torget. Gjennom \u00e5ret kan Konserthuset by p\u00e5 en rekke kulturelle begivenheter og ulike arrangementer.<br /><br />\u00d8nsker man \u00e5 nyte fine dager kan man f\u00f8lge den popul\u00e6re turstien langs Godalen, til Str\u00f8msvig og helt ut til sm\u00e5b\u00e5thavnen ved Hillev\u00e5gsvatnet. Her er det fint b\u00e5de \u00e5 l\u00f8pe og \u00e5 rusle."
+            },
+            {
+                "heading": "Beskrivelse av n\u00e6romr\u00e5det / fasiliteter",
+                "textUnsafe": "I n\u00e6romr\u00e5det finner du et bredt utvalg av servicetilbud innen kort gangavstand. For dagligvarehandel ligger Extra Klubbgata og Norvina under ett minutt unna. Arkaden og Torgterrassen kj\u00f8pesentre er ogs\u00e5 tilgjengelige p\u00e5 under ett minutt. I tillegg finnes det flere andre butikker og kiosker innen tre til fem minutters gange, som Spar Torget, Kiwi Magasin Bl\u00e5 og Narvesen.<br /><br />For spisesteder er utvalget stort, med alt fra kaffebarer som Starbucks og Steam kaffebar til restauranter som Lucca d&#39;Italia, Sushi Mat og Curry Masala, alle innen to til tre minutters gange. Det er ogs\u00e5 flere takeaway-alternativer og bakerier i n\u00e6rheten, som Backstube og Godt Br\u00f8d.<br /><br />Barnefamilier har flere barnehager innen rekkevidde, inkludert Storhaug \u00e5pen barnehage (7 minutter gange) og Solvang barnehage (10 minutter gange). Skoler som Storhaug skole og St. Svithun skole ligger henholdsvis 7 og 8 minutter unna til fots. Videreg\u00e5ende skoler som Stavanger katedralskole og Bergeland videreg\u00e5ende skole er ogs\u00e5 lett tilgjengelige, med gangavstander p\u00e5 4-5 minutter.<br /><br />For treningstilbud finner du SATS Herbarium 7 minutter unna til fots, mens st\u00f8rre treningssentre som SATS Storhaug ligger en kort kj\u00f8retur unna."
+            },
+            {
+                "heading": "Kort fortalt",
+                "textUnsafe": "- Sentral 2-roms leilighet i klassisk trehus i Br\u00f8dregata <br />- Gangavstand til sentrum, togstasjon og kollektivtransport<br />- Umiddelbar n\u00e6rhet til Pedersgata, Badedammen og Godalen <br />- Urban, men tilbaketrukket beliggenhet i rolig bygate<br />- Fine detaljer som de originale tred\u00f8rene<br />- Romslig stue med store vinduer og naturlig lysinnslipp<br />- Kj\u00f8kken fra ca. 2019 med integrerte hvitevarer<br />- Pent flislagt bad med vaskemaskin/t\u00f8rketrommel og god oppbevaring<br />- Soverom med adkomst til bad - praktisk og privat l\u00f8sning<br />- Felles g\u00e5rdsrom med brostein<br />- Passer ypperlig for f\u00f8rstegangskj\u00f8per, pendler eller som utleie"
+            },
+            {
+                "heading": "Byggem\u00e5te",
+                "textUnsafe": "Utdrag fra tilstandsrapport:<br />Grunnmur er i antatt l\u00f8dd stein/tegl som er pusset utvendig med murpuss. St\u00f8pt kjeller gulv mot grunn. Boligens yttervegger er av laft antatt delvis isolert. Bjelkelag er i trevirke. Utvendig fasade best\u00e5r av liggende bordkledning. Pipe er i murt teglstein fra bygge\u00e5r, ikke kontrollert. Vinduer/d\u00f8rer i trevirke med koblede glass. Boligens takform har saltak med tak-oppl\u00f8ft tekket med tegl-panner. Takrenner, nedl\u00f8p og beslag er i plast/sink. Takkonstruksjon fra bygge\u00e5r er antatt bygget p\u00e5 \u00e5ser.<br /><br />Det er gitt tilstandssvekkelser TG3 p\u00e5 f\u00f8lgende elementer som det gj\u00f8res s\u00e6rlig oppmerksom p\u00e5:<br />Yttervegger. Det anbefales utskifting av all bordkledning (gammel del), det m\u00e5 etableres vindtetting, lufting og musetetting ved rehabilitering. Tiltaket er sameie-kost.Takstmannens prisvurdering ved utskiftning antas mellom Kr. 100 000. - og 300.000.-<br />Undertak, lekter og yttertekking (taktekkingen). Det er registrert flere fuktskjolder i undertak mot loftet, fuktm\u00e5linger er ikke utf\u00f8rt p\u00e5 loftet grunnet manglende gulv/tilkomst. I tillegg er det registrert skjolder i innvendige takflate flere steder i leiligheten i 2. etasje. Tegl-panner ligger noe u-gjevt i takflater. Utf\u00f8rt fuktm\u00e5linger i innvendig skr\u00e5tak med funn av forh\u00f8yede verdier av fukt. M\u00e5linger er utf\u00f8rt i skr\u00e5tak p\u00e5 kj\u00f8kken 2. etasje. Yttertak, undertak og takrenner/beslag har passert sin levetid og m\u00e5 skiftes ut med nytt. Tiltaket er sameie-kost. Takstmannens prisvurdering ved utskiftning antas mer enn Kr. 300 000<br />Bad 1. Etasje Membran, tettesjiktet og sluk. Noe h\u00f8ye fuktverdier er registrert ved fukts\u00f8k p\u00e5 vegg og gulv i dusjsone. Det er ikke boret hull i et tilst\u00f8tende rom eller fra undersiden da dette er fysisk umulig. Skruer i klemring er angrepet av rust, skruer som er benyttet er ikke rust-bestandige, dette kan resultere i manglende tetting mellom klemring og mansjett. Kombinasjon av mangelfull fall til sluk (motfall), flere bruddskader i fliser p\u00e5 vegger, bom i fliser p\u00e5 vegger/gulv, feil p\u00e5 klemring/skruer i dusj og alder med slitasje som anf\u00f8rt st\u00e5r v\u00e5trommet for en total rehabilitering. Takstmannens prisvurdering ved utskiftning antas mellom Kr. 100 000. - og 300.000.-<br /><br />Det er gitt tilstandssvekkelser TG2 p\u00e5 f\u00f8lgende elementer som det gj\u00f8res s\u00e6rlig oppmerksom p\u00e5:<br />Byggegrunn, fundamenter, grunnmur, drenering og sikring mot vann og fuktighet. Kombinasjon av alder og materialer tilsier at det kan v\u00e6re behov for tiltak.Grunnmur har mindre sprekker utvendig, sprekker kan re-pusses. Det er i tillegg sprekk i grunnmur over et kjellervindu. Noen skader i fundament ved yttervegg ved bad. Alder/manglende drenering/fuktsikring. Tiltak for redrenering rundt boligen kan ikke utelukkes. Dette er felles sameiekost.<br />Terrengforhold. Ideelt b\u00f8r det i en avstand p\u00e5 ca. 3 meter v\u00e6re god helling vekk fra husets grunnmur. Dette kun til orientering og anbefalt p\u00e5 generelt grunnlag.<br />Vinduer og ytterd\u00f8rer. Det anbefales utvendig vedlikehold i form av maling for \u00f8kt levetid. Det er Vinduene med over 0,5 meter fallh\u00f8yde mangler barnesikring. Vinduene b\u00f8r f\u00e5 montert barnesikringer for \u00f8kt sikkerhet. Vinduer/d\u00f8r har passert mer en halvpart av sin levetid, kort gjenv\u00e6rende levetid men kan fungere noen \u00e5r til med riktig vedlikehold.<br />Takkonstruksjon, taktekking og skorstein over tak. Det er registrert nedb\u00f8y i takflate p\u00e5 hele taket. Viktig \u00e5 merke seg at takkonstruksjoner i eldre boliger ikke n\u00f8dvendigvis tilfredsstiller dagens krav til stivhet da disse er bygget etter eldre forskrifter. Ved fremtidig skift av taktekkingen anbefales en gjennomgang og oppretting. Det er ikke p\u00e5vist lufting i taket, erfaringsmessig har eldre takkonstruksjon ingen lufting. Manglende lufting mellom sutak og isolasjon med p\u00e5f\u00f8lgende kondens-problematikk. Det er registrert tegn til borebiller i trevirke, usikker om det er aktivitet. Anbefales sjekk av saneringsfirma.<br />Bad 1. Etasje Overflate vegger og himling. Det er registrert flere sprekker i fuger og fliser p\u00e5 vegger, omfattende sprekk ved yttervegg. Noen fliser har bom (mangelfull limdekning. Ventilasjon fungerer ikke, v\u00e5trommet har ingen ventilasjon. Til-luft spalte under d\u00f8rer mangler. D\u00f8r st\u00e5r i v\u00e5tsone for dusj. Avl\u00f8p fra vaskemaskin har mangelfull tetting, fors\u00f8kt tettet med t\u00f8yfille, trenger ettersyn. Alder og slitasje er medvirkende \u00e5rsak til TG 2.<br />Bad 1. Etasje Overflate gulv. Flere fliser har bom (mangelfull limdekning). Sluk-rist er fuget med sillicon, grunnet mangelfullt feste. Gulvets fall m\u00f8ter ikke forskriftsmessige krav til fall ved oppf\u00f8ringspunktet. Noe motfall er registrert i dusjomr\u00e5det, og utenfor dusjprofil. Det er registrert motfall p\u00e5 ca. 10 mm. fra dusj mot d\u00f8r ved entre. Begrenset fall i dusj, stedvis flatt anlagt. Profil/ramme for dusjhj\u00f8rnet mot gulv forhindrer lekkasjevann utenfor dusj \u00e5 n\u00e5 sluk. Ved lekkasjer utenfor dusj kan vann ledes direkte ut mot tilst\u00f8tende rom. <br />Kj\u00f8kken 1. Etasje Kj\u00f8kken 1. Etasje. Slitasje/skader som anf\u00f8rt og alder p\u00e5 innredning/hvitevarer. <br />WC og innvendige vann- og avl\u00f8psr\u00f8r. Det er ikke behov for utbedringstiltak siden anlegget fungerer i dag, men ut ifra alder kan skader plutselig oppst\u00e5 p\u00e5 eldre anlegg. Lokaliser stoppekran for \u00e5 forhindre skader ved eventuell lekkasjer fra trykkvann. Mer enn halvparten av forventet brukstid er passert p\u00e5 innvendige vannledninger. Mer enn halvparten av forventet brukstid er passert p\u00e5 innvendige avl\u00f8psledninger. I forbindelse med oppgradering av v\u00e5trom/kj\u00f8kken vil det v\u00e6re naturlig med utskiftning av r\u00f8r. Tidspunkt for utskiftning av avl\u00f8psr\u00f8r/vannledninger n\u00e6rmer seg. Utvendige vannledninger og avl\u00f8psr\u00f8r er ikke vurdert, men ut i fra alder m\u00e5 det p\u00e5regnes utskifting i n\u00e6r fremtid.<br />Ventilasjon. Leiligheten b\u00f8r generelt utstyres med flere ventiler i veggene for \u00e5 forbedre ventileringen. Dette kan og sees i sammenheng med kondensering i innvendige glass p\u00e5 vinduer. Tilluft (spalte under/over d\u00f8r) bad m\u00e5 etableres for \u00e5 ivareta tilstrekkelig ventilasjon. Vifte p\u00e5 bad fungerer ikke p\u00e5 befaringsdagen, ventilasjon m\u00e5 etableres.<br /><br />For n\u00e6rmere beskrivelse av byggem\u00e5te og byggeteknisk tilstand, se vedlagt tilstandsrapport utf\u00f8rt av \u00d8rjan Samland datert 27.01.25.<br />Rapporten baseres i hovedsak p\u00e5 visuell besiktelse av tilgjengelige overflater og deler. Boligens elektriske anlegg er ikke vurdert. Interessenter anbefales \u00e5 sette seg godt inn i innholdet i rapporten."
+            },
+            {
+                "heading": "Standard",
+                "textUnsafe": "Velkommen til Br\u00f8dregata 1, en lys og trivelig leilighet med meget sentral beliggenhet. Leiligheten byr p\u00e5 en kombinasjon av eldre sjel og nyere oppgraderinger.  Gulvene er belagt med parkett og fliser, og boligen er malt i moderne fargetoner. Det er gjort utskiftinger av kj\u00f8kken og enkelte overflater i nyere tid. Originale detaljer som de doble tred\u00f8rene mellom stue og soverom setter et nostalgisk preg og tilf\u00f8rer leiligheten det lille ekstra. <br /><br />Inngangspartiet er felles og har brosteinslagt adkomst. Inne i leiligheten m\u00f8ter man en flislagt gang med god plass til oppheng og oppbevaring. Det er benyttet m\u00f8rke gulvfliser som t\u00e5ler daglig bruk, og det er bevart en eldre dobbel tred\u00f8r som gir et hyggelig f\u00f8rsteinntrykk.<br /><br />Leiligheten har en lys og romslig stue med plass til b\u00e5de sofagruppe og spisebord. Rommet har flere store vinduer som slipper inn naturlig lys, og gir et \u00e5pent og innbydende preg. Veggene er malt i duse farger som st\u00e5r godt til gulvet i eik. De originale d\u00f8rene mellom stuen og soverommet gir leiligheten karakter og s\u00e6rpreg.<br /><br />Kj\u00f8kkenet ligger delvis \u00e5pent mot stuen og har en praktisk L-formet l\u00f8sning. Innredningen best\u00e5r av hvite slette fronter, integrert platetopp og stekeovn, samt frittst\u00e5ende kombiskap og oppvaskmaskin i st\u00e5l. Benkeplaten er m\u00f8rk og gir god kontrast til mosaikkfliser p\u00e5 vegg. Store vinduer gir godt dagslys, og det er plass til frokostbord eller ekstra oppbevaring ved behov. Kj\u00f8kkeninnredningen er fra 2019.<br /><br />Soverommet har en lun atmosf\u00e6re og god plass til dobbeltseng og garderobel\u00f8sning. Ogs\u00e5 her s\u00f8rger store vindusflater for dagslys, og en stilsikker fargepalett skaper en rolig sone. Direkte adgang til badet via doble tred\u00f8rer er b\u00e5de praktisk og sjarmerende.<br /><br />Badet er flislagt med lyse vegger og m\u00f8rke gulvfliser. Det er innredet med dusjkabinett, vegghengt toalett og servant med speil og belysning. En praktisk benk med integrert vaskemaskin/t\u00f8rketrommel og h\u00f8yskap gir godt med oppbevaring. Badet har downlights i himling og naturlig lys fra vindu."
+            },
+            {
+                "heading": "Utstyr",
+                "textUnsafe": "Boligen har mekanisk ventilasjon p\u00e5 kj\u00f8kken, elektrisk vifte p\u00e5 bad og ventilator med avtrekk til yttervegg. Brannvarslere og slukkeutstyr er montert, men pulverapparatet m\u00e5 byttes. Sikringsskap er montert i utvendig bod, dette er felles skap for samtlige leiligheter,<br /> med automatiske sikringer i entreen. Varmtvannsbereder p\u00e5 120 liter er plassert i felles bod."
+            },
+            {
+                "heading": "M\u00f8blering",
+                "textUnsafe": "Eiendommen selges um\u00f8blert. Integrerte hvitevarer p\u00e5 kj\u00f8kken medf\u00f8lger handelen. <br />Vegghengt hylle i stue, samt speil i gang medf\u00f8lger ikke handelen. <br /><br />Kombinert vaskemaskin/t\u00f8rketrommel fra 2021 kan f\u00f8lge med etter avtale med selger."
+            },
+            {
+                "heading": "Oppvarming",
+                "textUnsafe": "Boligen varmes opp med varmekabler p\u00e5 badet og panelovner i \u00f8vrige rom.<br /><br />Det er ingen fastmonterte varmekilder i boligen. Selger har benyttet frittst\u00e5ende elektriske ovner etter behov. Ventilasjon skjer via avtrekksvifter p\u00e5 kj\u00f8kken og bad."
+            },
+            {
+                "heading": "Parkering / Garasje",
+                "textUnsafe": "Parkering etter omr\u00e5dets gjeldende bestemmelser.<br /><br />Det medf\u00f8lger ikke fast parkeringsplass, og det er heller ingen rettigheter til parkering. Parkering skjer etter omr\u00e5dets offentlige bestemmelser."
+            },
+            {
+                "heading": "Adkomst",
+                "textUnsafe": "P\u00e5 finn.no kan du se vedlagt kartskisse p\u00e5 h\u00f8yre side i annonsen. Ved \u00e5 trykke p\u00e5 kartet f\u00e5r du enkelt tilgang til en spesifisert reiserute fra din startdestinasjon til boligen. Det vil bli skiltet med PrivatMegleren visningsskilt p\u00e5 visningsdagen."
+            },
+            {
+                "heading": "Beskrivelse av tomt",
+                "textUnsafe": "Tomt<br />Tomten er felles og opparbeidet med brostein og natursteinsheller i adkomstsonen. Det er begrensede uteplasser og lite sollys inn mellom husene, men god skjerming og lav trafikk gj\u00f8r omr\u00e5det rolig og tilbaketrukket."
+            },
+            {
+                "heading": "Tinglyste rettigheter og forpliktelser",
+                "textUnsafe": "Kommunen har legalpant som sikkerhet for betaling av kommunale avgifter. Legalpant er pant som f\u00f8lger av loven, og som ikke tinglyses. Legalpant f\u00f8lger derfor eiendommen ved salg. P\u00e5 eiendommen kan det v\u00e6re tinglyst erkl\u00e6ringer som f eks rett for kommunen til \u00e5 vedlikeholde r\u00f8rsystemer for vann- og kloakk. Disse erkl\u00e6ringene vil f\u00f8lge eiendommen ved salg. Kontakt megler for n\u00e6rmere informasjon.<br /><br />\u00d8vrige sameiere har panterett i seksjonen for krav mot sameieren som f\u00f8lge av sameieforholdet, jf. eierseksjonsloven \u00a7 31. Pantekravet kan ikke overstige 2G (Folketrygdens grunnbel\u00f8p). Sameiet kan vedtektsfeste ytterligere panterett for sameiet. Vedtektsfestet pant tinglyses i seksjonene."
+            },
+            {
+                "heading": "Servitutter / rettigheter",
+                "textUnsafe": "Eiendommen overdras fri for pengeheftelser, med unntak av eventuelle erkl\u00e6ringer, avtaler, servitutter og panteheftelser som fremg\u00e5r av salgsoppgaven og skal f\u00f8lge med eiendommen ved salg. Kj\u00f8pers bank vil f\u00e5 prioritet etter disse.<br /><br />1959/3233-1/102  Best. om vann/kloakkledn.   <br />15.09.1959  <br />Overf\u00f8rt fra: 1103-55/164<br />Gjelder denne registerenheten med flere<br /><br />Grunndata<br />2003/5421-1/102  Seksjonering   <br />09.04.2003  <br />opprettet seksjoner: <br />snr: 1<br />form\u00e5l: Bolig<br />sameiebr\u00f8k: 54/254<br /> <br />For \u00f8vrige opplysninger om grunndata, se den seksjonerte matrikkelenheten."
+            },
+            {
+                "heading": "Vei / Vann / Avl\u00f8p",
+                "textUnsafe": "Offentlig vei til eiendommen. <br />Eiendommen er tilknyttet offentlig vann og avl\u00f8psnett via private stikk- og fellesledninger.<br />For private fellesledninger er der normalt tilknyttet solidarisk vedlikeholdsplikt."
+            },
+            {
+                "heading": "Ferdigattest eller midl. brukstillatelse",
+                "textUnsafe": "Det foreligger ikke ferdigattest p\u00e5 eiendommen. <br /> <br />Ferdigattest utstedes ikke lenger for tiltak det er s\u00f8kt om f\u00f8r 01.01.1998, jf. plan og bygningsloven \u00a7 21-10 femte ledd."
+            },
+            {
+                "heading": "Verdi ved skattefastsetting",
+                "textUnsafe": "Verdien ved skattefastsetting som prim\u00e6rbolig kr 684 490,- pr 31.12.23<br />Verdien ved skattefastsetting som sekund\u00e6rbolig kr 2 737 959,- pr 31.12.23<br /><br />Formuesverdien er hentet fra altinn.no"
+            },
+            {
+                "heading": "Reguleringsforhold",
+                "textUnsafe": "Eiendommen er i kommuneplanen avsatt til sentrumsform\u00e5l. Eiendommen omfattes av en eldre reguleringsplan p\u00e5 grunnen med ikrafttredelse i 1992 som regulerer eiendommen til Bevaringsomr\u00e5der, Annet kombinert form\u00e5l og gate med fortau. <br /><br />Boligen ligger i et omr\u00e5de som g\u00e5r inn under Trehusbyen i Stavanger. Dette vil kunne medf\u00f8re restriksjoner for hvilke tiltak som tillates p\u00e5 eiendommen.<br /><br />Huset er registrert i SEFRAK. SEFRAK er et landsdekkende register over eldre bygninger og andre kulturminner i Norge. Navnet er en forkortelse for SEkretariatet For Registrering Av faste Kulturminner, som var navnet p\u00e5 den institusjonen som p\u00e5begynte arbeidet med registeret. Det at et hus er registrert i SEFRAK gir det ikke automatisk vernestatus, og legger heller ikke spesifikke restriksjoner p\u00e5 hva som kan gj\u00f8res med det.<br /><br />Kommuneplaner<br />Id 129K<br />Navn Stavanger sentrum<br />Plantype 21 - Kommunedelplan<br />Status 3 - Endelig vedtatt arealplan<br />Ikrafttredelse 03/11/2019 00:00:00<br />Bestemmelser 129K.pdf<br />Delarealer<br />Areal 113.96 kvm<br />Hensynsonenavn H570_<br />Kpangitthensyn 570 - Bevaring kulturmilj\u00f8<br />Areal 113.96 kvm<br />Hensynsonenavn H730_2<br />Kpbandlegging 730 - B\u00e5ndlegging kulturminneloven<br />Areal 113.96 kvm<br />Omrnavn BS28<br />Kparealformal 1130 - Sentrumsform\u00e5l<br /><br />Id KP 2023-2040<br />Navn Kommuneplanens arealdel 2023-2040<br />Plantype 20 - Kommuneplanens arealdel<br />Status 3 - Endelig vedtatt arealplan<br />Ikrafttredelse 11/11/2022 00:00:00<br />Bestemmelser KPA bestemmelser og retningslinjer vedtatt 28.06.2024.pdf<br />Delarealer<br />Areal 113.96 kvm<br />Hensynsonenavn H570_23<br />Kpangitthensyn 570 - Bevaring kulturmilj\u00f8<br />Areal 113.96 kvm<br />Hensynsonenavn H730_83<br />Kpbandlegging 730 - B\u00e5ndlegging kulturminneloven<br />Areal 113.96 kvm<br />Omrnavn SF1<br />Kparealformal 1130 - Sentrumsform\u00e5l<br /><br />Reguleringsplaner<br />Id 1385<br />Navn Kvartaler i Pedersbakken / Smedgata-omr\u00e5det<br />Plantype 30 - Eldre reguleringsplan<br />Status 3 - Endelig vedtatt arealplan<br />Ikrafttredelse 06/29/1992 00:00:00<br />Bestemmelser 1385 bestemmelser.pdf,Retningslinjer for Trehusbyen.pdf<br />Delarealer<br />Areal 113.96 kvm<br />Feltnavn<br />Regform 660 - Bevaringsomr\u00e5der<br />Areal 110.94 kvm<br />Feltnavn<br />Regform 990 - Annet kombinert form\u00e5l<br />Areal 3.02 kvm<br />Feltnavn<br />Regform 311 - Gate m/fortau<br /><br />Bes\u00f8k kommunens hjemmeside for mer informasjon."
+            },
+            {
+                "heading": "Energimerking",
+                "textUnsafe": "Oppvarmingskarakter R\u00f8d - Energikarakter G"
+            },
+            {
+                "heading": "Beskrivelse av sameiet",
+                "textUnsafe": "Boligen er \u00e9n av totalt 4 seksjoner og inng\u00e5r som en del av et eierseksjonssameie. <br />Sameiet er imidlertid ikke organisert, og har ikke et aktivt styre. Det foreligger ikke vedtekter, regnskap eller budsjett. Eierseksjonslovens regler gjelder imidlertid for slike sameier. <br /><br />En sameier eier en andel i eiendommen, med tilknyttet enerett til bruk av sin bruksenhet, jf. eierseksjonsloven \u00a7 25.<br /><br />Ingen kan erverve mer enn to boligseksjoner i et sameie, jf. eierseksjonsloven \u00a7 23 f\u00f8rste ledd. Dersom et erverv har funnet sted i strid med eierseksjonslovens regler kan Kartverket nekte overskj\u00f8ting. <br />Dersom overskj\u00f8ting blir nektet, er kj\u00f8per likevel forpliktet til \u00e5 gjennomf\u00f8re handelen med selger, og oppgj\u00f8r til selger vil finne sted tross manglende overskj\u00f8ting. <br /><br />Interessenter oppfordres til \u00e5 sette seg inn i sameiets vedtekter, husordensregler, regnskap, budsjett, \u00e5rsberetning m.m. Se s\u00e6rlig om vedtekter og husordensregler knyttet til husdyrhold, dugnader, trappevask o.l.<br /><br />"
+            },
+            {
+                "heading": "Andre faste l\u00f8pende kostnader",
+                "textUnsafe": "Selger opplyser om at det PT ikke har eller er praktisert fellesutgifter til sameiet. <br /><br />Andre faste utgifter:<br />Str\u00f8m, TV/Internett, forsikringer, vedlikehold, kommunale avgifter etc.<br /><br />Kommunale avgifter Kr. 9 086 pr. \u00e5r<br />Inkluderer: Renovasjon, nedgravd conteiner, vann, avl\u00f8o, feiing og tilsyn.<br /><br />Forsikring i , kr ,- (polisenummer )<br /><br /><br />Endringer i l\u00e5nevilk\u00e5r, herunder renteendringer, vil kunne medf\u00f8re at m\u00e5nedlige fellesutgifter endres. P\u00e5 samme m\u00e5te vil vedlikeholdsarbeider og oppgradering av bygning kunne medf\u00f8re \u00f8kte fellesutgifter.<br /><br />"
+            },
+            {
+                "heading": "Andel fellesgjeld / formue",
+                "textUnsafe": "Andel fellesgjeld kr. 0,- / Andel fellesformue  kr. 0,- pr  if\u00f8lge forretningsf\u00f8rer.<br />Andel fellesgjeld og evt. formue overtas av kj\u00f8per."
+            },
+            {
+                "heading": "Oppgj\u00f8r",
+                "textUnsafe": "Kj\u00f8pesum med tillegg av omkostninger skal v\u00e6re disponibelt p\u00e5 meglers klientkonto innen overtagelse. Normalt inneb\u00e6rer dette at fullt oppgj\u00f8r m\u00e5 v\u00e6re innbetalt p\u00e5 meglers klientkonto senest to virkedager f\u00f8r avtalt overtagelsesdato. <br />Eventuelle vilk\u00e5r knyttet til innbetalingen, eksempelvis pantedokument som skal tinglyses til fordel for kj\u00f8pers bank, m\u00e5 v\u00e6re megler i hende i god tid f\u00f8r overtagelse kan finne sted."
+            },
+            {
+                "heading": "Finansiering",
+                "textUnsafe": "Kontakt megler for avklaring av finansielle forhold, herunder l\u00e5n til kj\u00f8p av eiendom. Privatmegleren har avtale med Nordea om formidling av l\u00e5n og andre finansielle tjenester. Privatmegleren mottar godtgj\u00f8relse for dette."
+            },
+            {
+                "heading": "Annen nyttig informasjon",
+                "textUnsafe": "Alle innvendige og utvendige arealangivelser er hentet fra vedlagte tilstandsrapport.<br /> <br />Det gj\u00f8res oppmerksom p\u00e5 at megler ikke har innhentet s\u00e6rskilte opplysninger om det finnes p\u00e5legg fra brann/feiervesen p\u00e5 eiendommen. Det er ikke foretatt unders\u00f8kelse av det elektriske anlegget.<br /><br />Med mindre annet er uttrykkelig avtalt gjelder NEFs normgivende liste over l\u00f8s\u00f8re og tilbeh\u00f8r.<br /><br /><br />"
+            },
+            {
+                "heading": "Adgang til utleie",
+                "textUnsafe": "Bolig i eierseksjonssameie kan som hovedregel fritt leies ut. Det kan imidlertid f\u00f8lge av sameiets vedtekter at leietager skal godkjennes av styret, jf. eierseksjonsloven \u00a7 24 tredje ledd. Styret m\u00e5 ha &#34;saklig grunn&#34; for ikke \u00e5 godkjenne leietager.<br /><br />"
+            },
+            {
+                "heading": "Konsesjon / Odel",
+                "textUnsafe": "Det er ikke krav til konsesjon ved erverv av eiendommen.<br />Det hefter ikke odel p\u00e5 eiendommen."
+            },
+            {
+                "heading": "Sikkerhetsstillelse",
+                "textUnsafe": "Alle eiendomsmeglingsforetak har lovp\u00e5lagt forsikring av klientmidler begrenset oppad til kr 45 mill. Enkeltsaker er forsikret inntil kr 15 mill. Dersom kj\u00f8pers l\u00e5neinstitusjon krever tilleggsforsikring ved omsetning over 15 millioner, m\u00e5 kj\u00f8per selv eller dennes l\u00e5neinstitusjon dekke utgiftene forbundet med dette."
+            },
+            {
+                "heading": "Kj\u00f8psforsikring",
+                "textUnsafe": "I produktark om Kj\u00f8psforsikring bak i salgsoppgaven finner du informasjon om Boligkj\u00f8perforsikring, Hus-/hytteforsikring med superdekning, Innboforsikring med superdekning, samt priser p\u00e5 produktene."
+            },
+            {
+                "heading": "Overtagelse",
+                "textUnsafe": "Etter n\u00e6rmere avtale."
+            },
+            {
+                "heading": "Boligselgerforsikring",
+                "textUnsafe": "Selger har ikke tegnet boligselgerforsikring, og interessenter oppfordres til \u00e5 sette seg inn i selgers egenerkl\u00e6ring f\u00f8r det inngis bud p\u00e5 eiendommen."
+            },
+            {
+                "heading": "Budgiving",
+                "textUnsafe": "Bud kan legges inn via Privatmeglerens &#34;gi bud-knapp&#34; som finnes p\u00e5 Privatmegleren.no/eiendommens hjemmeside og i nettannonsen. Bud legges inn trygt og enkelt med bank-ID.<br /><br />For mer informasjon om budgivning, se &#34;Viktig informasjon&#34; i salgsoppgaven."
+            },
+            {
+                "heading": "Lovanvendelse",
+                "textUnsafe": "Eiendommen selges etter reglene i avhendingsloven.<br /><br />Eiendommen skal overleveres kj\u00f8per i tr\u00e5d med det som er avtalt. Det er viktig at kj\u00f8per setter seg grundig inn i alle salgsdokumentene, herunder salgsoppgave, tilstandsrapport og selgers egenerkl\u00e6ring. Kj\u00f8per anses kjent med forhold som er tydelig beskrevet i salgsdokumentene.  Forhold som er beskrevet i salgsdokumentene kan ikke p\u00e5beropes som mangler. Dette gjelder uavhengig av om kj\u00f8per har lest dokumentene. Alle interessenter oppfordres til \u00e5 unders\u00f8ke eiendommen n\u00f8ye, gjerne sammen med fagkyndig f\u00f8r bud inngis. Kj\u00f8per som velger \u00e5 kj\u00f8pe usett kan ikke gj\u00f8re gjeldende som mangel noe han burde blitt kjent med ved unders\u00f8kelsen.<br /><br />Dersom det er behov for avklaringer, anbefaler vi at kj\u00f8per r\u00e5df\u00f8rer seg med eiendomsmegler eller en bygningssakyndig f\u00f8r det legges inn bud.<br /><br />Hvis eiendommen ikke er i samsvar med det kj\u00f8peren m\u00e5 kunne forvente ut ifra alder, type og synlig tilstand, kan det v\u00e6re en mangel. Det samme gjelder hvis det er holdt tilbake eller gitt uriktige opplysninger om eiendommen. Dette gjelder likevel bare dersom man kan g\u00e5 ut i fra at det virket inn p\u00e5 avtalen at opplysningen ikke ble gitt eller at feil opplysninger ikke ble rettet i tide p\u00e5 en tydelig m\u00e5te. En bolig som har blitt brukt i en viss tid, har vanligvis blitt utsatt for slitasje og skader kan ha oppst\u00e5tt. Slik bruksslitasje m\u00e5 kj\u00f8per regne med, og det kan avdekkes enkelte forhold etter overtakelse som n\u00f8dvendiggj\u00f8r utbedringer. Normal slitasje og skader som n\u00f8dvendiggj\u00f8r utbedring, er innenfor hva kj\u00f8per m\u00e5 forvente og vil ikke utgj\u00f8re en mangel.<br /><br />Boligen kan ha en mangel dersom det er avvik mellom opplyst og faktisk areal, forutsatt at avviket er p\u00e5 2% eller mer og minimum 1 kvm.<br /><br />Ved beregning av et eventuelt prisavslag eller erstatning m\u00e5 kj\u00f8per selv dekke tap/kostnader opptil et bel\u00f8p p\u00e5 kr 10 000 (egenandel).<br /><br />Dersom kj\u00f8per ikke er forbruker selges eiendommen  som den er , og selgers ansvar er da begrenset jf. avhl. \u00a7 3-9, 1. ledd 2. pktm. Avhendingsloven \u00a7 3-3 (2) fravikes, og hvorvidt en innend\u00f8rs arealsvikt karakteriseres som en mangel vurderes etter avhendingsloven \u00a7 3-8. Informasjon om kj\u00f8pers unders\u00f8kelsesplikt, herunder oppfordringen om \u00e5 unders\u00f8ke eiendommen n\u00f8ye, gjelder ogs\u00e5 for kj\u00f8pere som ikke anses som forbrukere. Med forbrukerkj\u00f8p menes kj\u00f8p av eiendom n\u00e5r kj\u00f8peren er en fysisk person som ikke hovedsakelig handler som ledd i n\u00e6ringsvirksomhet."
+            },
+            {
+                "heading": "Lov om hvitvasking",
+                "textUnsafe": "Megler er underlagt lov om hvitvasking som inneb\u00e6rer plikt til \u00e5 melde ifra til \u00d8kokrim om mistenkelige transaksjoner"
+            },
+            {
+                "heading": "Meglers vederlag og utlegg",
+                "textUnsafe": "Fotografering/video (utlegg) (Kr.4 950)<br />Visning (Kr.1 990)<br />Provisjon (forutsatt salgssum: 2 490 000,-) (Kr.55 000)<br />Innhenting servitutter (Kr.700)<br />Grunnpakke markedsf\u00f8ring (Kr.25 900)<br />Panterett med ur\u00e5dighet - Statens Kartverk (Kr.545)<br />Betalingsutsettelsesgebyr (Kr.3 450)<br />Innhentingsgebyr (Kr.2 975)<br />Oppgj\u00f8rsgebyr (Kr.5 500)<br />Tilrettelegging (Kr.11 900)<br />Totalt kr. (Kr.112 910)<br /><br />Dersom eiendommen ikke omsettes, faktureres selger utlegg til fotograf, innhenting av opplysninger og tilretteleggingsgebyr."
+            },
+            {
+                "heading": "Vedlegg til salgsoppgaven",
+                "textUnsafe": "Tilstandsrapport<br />Egenerkl\u00e6ring<br />Energiattest<br />Regulering<br />Kommunale opplysninger<br />Tegninger<br />Seksjonering<br />Servitutt<br />Grunnkart<br />L\u00f8s\u00f8re og tilbeh\u00f8r<br />Bud og budgivning<br /><br />Salgsoppgaven er ikke komplett uten alle vedlegg."
+            }
+        ],
+        "lettingUnit": false,
+        "externalAdId": "30125010301",
+        "propertyInfo": [
+            {
+                "title": "Om boligen",
+                "isHtml": true,
+                "content": "<p>S\u00e6rdeles sentralt beliggende 2-roms selveierleilighet i klassisk trehus i Br\u00f8dregata, kun f\u00e5 minutters gange fra sentrum, kollektivtransport, Pedersgata og popul\u00e6re turomr\u00e5der som Godalen og Badedammen. Leiligheten har en smart og arealeffektiv planl\u00f8sning, fin takh\u00f8yde og store vindusflater som gir rikelig med naturlig lys.</p><br /><p>Stuen er lys og \u00e5pen, med originale fl\u00f8yd\u00f8rer i heltre som\u00a0virkelig tilf\u00f8rer rommet det lille ekstra.\u00a0Kj\u00f8kkenet ble oppgradert ca. 2019 og har integrerte hvitevarer. Badet er romslig med fliser, vaskes\u00f8yle og god oppbevaring. EIkeparkett og gjennomf\u00f8rt fargebruk gir en lun og moderne atmosf\u00e6re. Et ideelt hjem for deg som \u00f8nsker n\u00e6rhet til byliv, turomr\u00e5der og skjermede omgivelser.</p><br /><p><strong>Planl\u00f8sning:</strong><br />Entr\u00e9/gang, stue, kj\u00f8kken, bad og soverom med direkte adkomst til badet.</p>"
+            }
+        ],
+        "propertyType": "Leilighet",
+        "sellerEmails": [],
+        "advertiserRef": "301250103",
+        "electronicBid": {
+            "bidUrl": "https://tryggbudgivning.no/120/3825875/abnvpdgclw",
+            "infoUrl": "https://tryggbudgivning.no/"
+        },
+        "moreInfoLinks": [
+            {
+                "uri": "https://privatmegleren.no/301250103/visningspaamelding",
+                "title": "Visningsp\u00e5melding"
+            },
+            {
+                "uri": "https://www.privatmegleren.no/301250103",
+                "title": "Eiendommens hjemmeside"
+            }
+        ],
+        "ownershipType": "Eier (Selveier)",
+        "summaryUnsafe": "<p>S\u00e6rdeles sentralt beliggende 2-roms selveierleilighet i klassisk trehus i Br\u00f8dregata, kun f\u00e5 minutters gange fra sentrum, kollektivtransport, Pedersgata og popul\u00e6re turomr\u00e5der som Godalen og Badedammen. Leiligheten har en smart og arealeffektiv planl\u00f8sning, fin takh\u00f8yde og store vindusflater som gir rikelig med naturlig lys.</p><br /><p>Stuen er lys og \u00e5pen, med originale fl\u00f8yd\u00f8rer i heltre som\u00a0virkelig tilf\u00f8rer rommet det lille ekstra.\u00a0Kj\u00f8kkenet ble oppgradert ca. 2019 og har integrerte hvitevarer. Badet er romslig med fliser, vaskes\u00f8yle og god oppbevaring. EIkeparkett og gjennomf\u00f8rt fargebruk gir en lun og moderne atmosf\u00e6re. Et ideelt hjem for deg som \u00f8nsker n\u00e6rhet til byliv, turomr\u00e5der og skjermede omgivelser.</p><br /><p><strong>Planl\u00f8sning:</strong><br />Entr\u00e9/gang, stue, kj\u00f8kken, bad og soverom med direkte adkomst til badet.</p>",
+        "prospectusView": "https://www.privatmegleren.no/301250103",
+        "adViewTypeLabel": "Bolig til salgs",
+        "prospectusOrder": "https://privatmegleren.no/registrerinteressent/301250103",
+        "constructionYear": 1842,
+        "thirdPartyAdvertiser": false,
+        "changeOfOwnershipInsurance": false
+    },
+    "meta": {
+        "adId": 413435582,
+        "mode": "PLAY",
+        "edited": "2025-06-23T04:10+02:00",
+        "history": [
+            {
+                "mode": "PLAY",
+                "version": "1.1",
+                "broadcasted": "2025-06-20T10:24:51.674522+02:00"
+            },
+            {
+                "mode": "PLAY",
+                "version": "2.1",
+                "broadcasted": "2025-06-21T04:09:44.381726+02:00"
+            },
+            {
+                "mode": "PLAY",
+                "version": "3.1",
+                "broadcasted": "2025-06-22T04:10:12.716032+02:00"
+            },
+            {
+                "mode": "PLAY",
+                "version": "4.1",
+                "broadcasted": "2025-06-23T04:10:36.164322494+02:00"
+            }
+        ],
+        "ownerId": 1919990468,
+        "version": "4.1",
+        "occurred": "2025-06-23T04:10:36.164322494+02:00",
+        "ownerUrn": "sdrn:finn:organisation:1919990468",
+        "schemaName": "realestate-home",
+        "schemaVersion": "0.17.1"
+    }
+}

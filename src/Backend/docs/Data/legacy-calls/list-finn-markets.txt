@@ -1,0 +1,1399 @@
+GET FINN MARKET INFO
+
+
+GET https://apps.finn.no/api/ HTTP/1.1
+FINN-GW-KEY: fwkt8/KM4TdBWd2gIY8apHOK6iPpKRt0SZ0SxFDsRsoU6TVRCSL6+tiA9+sqolUYyyaiL111HKviOH3XG2qxOQ==
+
+[
+  {
+    "market-id": "bap",
+    "search-id": "bap",
+    "search-key": "SEARCH_ID_BAP_COMMON",
+    "label": "Torget",
+    "type": "classified",
+    "selected": false,
+    "links": [
+      {
+        "url": "https://apps.finn.no/api/search/bap?appsmarkethint=bap",
+        "rel": "search"
+      },
+      {
+        "url": "https://apps.finn.no/api/search/bap/filters",
+        "rel": "filters"
+      },
+      {
+        "url": "https://apps.finn.no/api/search/bap/filtersWithMarkets",
+        "rel": "filters-with-markets"
+      },
+      {
+        "url": "https://apps.finn.no/api/search/bap/poi?",
+        "rel": "poi"
+      },
+      {
+        "url": "https://apps.finn.no/api/search/bap/filterConfig",
+        "rel": "filter-config"
+      }
+    ],
+    "submarkets": [
+      {
+        "market-id": "bap-bap",
+        "search-id": "bap",
+        "search-key": "SEARCH_ID_BAP_COMMON",
+        "label": "Torget",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/bap?appsmarkethint=bap",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "bap-sale",
+        "search-id": "bap-sale",
+        "search-key": "SEARCH_ID_BAP_ALL",
+        "label": "Til salgs",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/bap-sale?appsmarkethint=bap",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "bap-free",
+        "search-id": "bap-free",
+        "search-key": "SEARCH_ID_BAP_FREE",
+        "label": "Gis bort",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/bap-free?appsmarkethint=bap",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "bap-wanted",
+        "search-id": "bap-wanted",
+        "search-key": "SEARCH_ID_BAP_WANTED",
+        "label": "Ønskes kjøpt",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/bap-wanted?appsmarkethint=bap",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bap/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "market-id": "job",
+    "label": "Jobb",
+    "type": "classified",
+    "submarkets": [
+      {
+        "market-id": "job-full-time",
+        "search-id": "job-full-time",
+        "search-key": "SEARCH_ID_JOB_FULLTIME",
+        "label": "Alle stillinger",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/job-full-time?appsmarkethint=job",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-full-time/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-full-time/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-full-time/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-full-time/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "job-part-time",
+        "search-id": "job-part-time",
+        "search-key": "SEARCH_ID_JOB_PARTTIME",
+        "label": "Deltidsstillinger",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/job-part-time?appsmarkethint=job",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-part-time/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-part-time/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-part-time/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-part-time/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "job-management",
+        "search-id": "job-management",
+        "search-key": "SEARCH_ID_JOB_MANAGEMENT",
+        "label": "Lederstillinger",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/job-management?appsmarkethint=job",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-management/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-management/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-management/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/job-management/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "market-id": "car",
+    "label": "Bil og næring",
+    "type": "classified",
+    "submarkets": [
+      {
+        "market-id": "car-norway",
+        "search-id": "car-norway",
+        "search-key": "SEARCH_ID_CAR_USED",
+        "label": "Biler i Norge",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/car-norway?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/car-norway/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/car-norway/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/car-norway/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/car-norway/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-abroad",
+        "search-id": "car-abroad",
+        "search-key": "SEARCH_ID_CAR_PARALLEL_IMPORT",
+        "label": "Biler i utlandet",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/car-abroad?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/car-abroad/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/car-abroad/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/car-abroad/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/car-abroad/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-mobile-home",
+        "search-id": "mobile-home",
+        "search-key": "SEARCH_ID_CAR_MOBILE_HOME",
+        "label": "Bobil",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/mobile-home?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/mobile-home/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/mobile-home/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/mobile-home/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/mobile-home/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-caravan",
+        "search-id": "caravan",
+        "search-key": "SEARCH_ID_CAR_CARAVAN",
+        "label": "Campingvogn",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/caravan?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/caravan/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/caravan/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/caravan/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/caravan/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-truck",
+        "search-id": "truck",
+        "search-key": "SEARCH_ID_CAR_TRUCK",
+        "label": "Lastebil og henger",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/truck?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/truck/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/truck/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/truck/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/truck/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-truck-abroad",
+        "search-id": "truck-abroad",
+        "search-key": "SEARCH_ID_CAR_TRUCK_ABROAD",
+        "label": "Lastebil og henger i utlandet",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/truck-abroad?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/truck-abroad/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/truck-abroad/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/truck-abroad/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/truck-abroad/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-bus",
+        "search-id": "bus",
+        "search-key": "SEARCH_ID_CAR_BUS",
+        "label": "Buss og minibuss",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/bus?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bus/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bus/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bus/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/bus/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-construction",
+        "search-id": "construction",
+        "search-key": "SEARCH_ID_CAR_AGRI",
+        "label": "Bygg og anlegg",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/construction?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/construction/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/construction/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/construction/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/construction/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-agriculture-tractor",
+        "search-id": "agriculture-tractor",
+        "search-key": "SEARCH_ID_AGRICULTURE_TRACTOR",
+        "label": "Traktor",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-tractor?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-tractor/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-tractor/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-tractor/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-tractor/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-agriculture-thresher",
+        "search-id": "agriculture-thresher",
+        "search-key": "SEARCH_ID_AGRICULTURE_THRESHING",
+        "label": "Tresker",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-thresher?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-thresher/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-thresher/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-thresher/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-thresher/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-agriculture-tools",
+        "search-id": "agriculture-tools",
+        "search-key": "SEARCH_ID_AGRICULTURE_TOOL",
+        "label": "Redskap",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-tools?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-tools/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-tools/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-tools/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/agriculture-tools/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-van-norway",
+        "search-id": "van-norway",
+        "search-key": "SEARCH_ID_CAR_VAN",
+        "label": "Varebiler i Norge",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/van-norway?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/van-norway/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/van-norway/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/van-norway/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/van-norway/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "car-van-abroad",
+        "search-id": "van-abroad",
+        "search-key": "SEARCH_ID_CAR_VAN_ABROAD",
+        "label": "Varebiler i utlandet",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/van-abroad?appsmarkethint=car",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/van-abroad/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/van-abroad/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/van-abroad/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/van-abroad/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "market-id": "realestate",
+    "label": "Eiendom",
+    "type": "classified",
+    "submarkets": [
+      {
+        "market-id": "realestate-homes",
+        "search-id": "realestate-homes",
+        "search-key": "SEARCH_ID_REALESTATE_HOMES",
+        "label": "Boliger til salgs",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-homes?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-homes/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-homes/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-homes/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-homes/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-development",
+        "search-id": "realestate-development",
+        "search-key": "SEARCH_ID_REALESTATE_NEWBUILDINGS",
+        "label": "Nye boliger",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-development?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-development/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-development/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-development/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-development/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-plot",
+        "search-id": "realestate-plot",
+        "search-key": "SEARCH_ID_REALESTATE_PLOTS",
+        "label": "Boligtomter",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-plot?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-plot/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-plot/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-plot/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-plot/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-leisure-sale",
+        "search-id": "realestate-leisure-sale",
+        "search-key": "SEARCH_ID_REALESTATE_LEISURE_SALE",
+        "label": "Fritidsbolig til salgs",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-sale?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-sale/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-sale/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-sale/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-sale/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-leisure-sale-abroad",
+        "search-id": "realestate-leisure-sale-abroad",
+        "search-key": "SEARCH_ID_REALESTATE_ABROAD_HOMES",
+        "label": "Bolig i utlandet",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-sale-abroad?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-sale-abroad/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-sale-abroad/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-sale-abroad/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-sale-abroad/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-leisure-plot",
+        "search-id": "realestate-leisure-plot",
+        "search-key": "SEARCH_ID_REALESTATE_LEISURE_PLOTS",
+        "label": "Fritidstomter",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-plot?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-plot/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-plot/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-plot/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-leisure-plot/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-letting",
+        "search-id": "realestate-letting",
+        "search-key": "SEARCH_ID_REALESTATE_LETTINGS",
+        "label": "Bolig til leie",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-letting?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-letting/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-letting/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-letting/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-letting/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-letting-wanted",
+        "search-id": "realestate-letting-wanted",
+        "search-key": "SEARCH_ID_REALESTATE_LETTINGS_WANTED",
+        "label": "Bolig ønskes leid",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-letting-wanted?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-letting-wanted/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-letting-wanted/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-letting-wanted/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-letting-wanted/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-business-sale",
+        "search-id": "realestate-business-sale",
+        "search-key": "SEARCH_ID_COMMERCIAL_SALE",
+        "label": "Næringseiendom til salgs",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-sale?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-sale/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-sale/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-sale/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-sale/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-business-letting",
+        "search-id": "realestate-business-letting",
+        "search-key": "SEARCH_ID_COMMERCIAL_RENT",
+        "label": "Næringseiendom til leie",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-letting?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-letting/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-letting/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-letting/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-letting/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-business-plot",
+        "search-id": "realestate-business-plot",
+        "search-key": "SEARCH_ID_COMMERCIAL_PLOTS",
+        "label": "Næringstomt",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-plot?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-plot/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-plot/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-plot/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/realestate-business-plot/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-company-for-sale",
+        "search-id": "company-for-sale",
+        "search-key": "SEARCH_ID_COMPANY_SALE",
+        "label": "Bedrifter til salgs",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/company-for-sale?appsmarkethint=realestate",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/company-for-sale/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/company-for-sale/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/company-for-sale/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/company-for-sale/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "realestate-travel-fhh",
+        "label": "Feriehus og hytter til leie",
+        "type": "external",
+        "link": "https://www.finn.no/reise/feriehus-hytteutleie/resultat/"
+      }
+    ]
+  },
+  {
+    "market-id": "travel",
+    "label": "Reise",
+    "type": "external",
+    "link": "https://www.finn.no/reise?ov=app"
+  },
+  {
+    "market-id": "refurbished-electronics",
+    "label": "Nybrukt mobil",
+    "type": "external",
+    "link": "https://www.finn.no/nybrukt/mobil?ov=app"
+  },
+  {
+    "market-id": "boat",
+    "label": "Båt",
+    "type": "classified",
+    "submarkets": [
+      {
+        "market-id": "boat-sale",
+        "search-id": "boat-sale",
+        "search-key": "SEARCH_ID_BOAT_USED",
+        "label": "Båter til salgs",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/boat-sale?appsmarkethint=boat",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-sale/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-sale/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-sale/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-sale/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "boat-used-wanted",
+        "search-id": "boat-used-wanted",
+        "search-key": "SEARCH_ID_BOAT_USED_WANTED",
+        "label": "Båt ønskes kjøpt",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/boat-used-wanted?appsmarkethint=boat",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-used-wanted/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-used-wanted/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-used-wanted/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-used-wanted/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "boat-rent",
+        "search-id": "boat-rent",
+        "search-key": "SEARCH_ID_BOAT_RENT",
+        "label": "Båter til leie",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/boat-rent?appsmarkethint=boat",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-rent/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-rent/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-rent/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-rent/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "boat-motor",
+        "search-id": "boat-motor",
+        "search-key": "SEARCH_ID_BOAT_MOTOR",
+        "label": "Båtmotorer til salgs",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/boat-motor?appsmarkethint=boat",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-motor/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-motor/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-motor/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-motor/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "boat-parts",
+        "search-id": "boat-parts",
+        "search-key": "SEARCH_ID_BOAT_PARTS",
+        "label": "Motordeler til salgs",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/boat-parts?appsmarkethint=boat",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-parts/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-parts/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-parts/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-parts/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "boat-parts-motor-wanted",
+        "search-id": "boat-parts-motor-wanted",
+        "search-key": "SEARCH_ID_BOAT_PARTS_MOTOR_WANTED",
+        "label": "Båtmotorer ønskes kjøpt",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/boat-parts-motor-wanted?appsmarkethint=boat",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-parts-motor-wanted/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-parts-motor-wanted/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-parts-motor-wanted/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-parts-motor-wanted/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "boat-dock",
+        "search-id": "boat-dock",
+        "search-key": "SEARCH_ID_BOAT_DOCK",
+        "label": "Båtplasser til salgs/leie",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/boat-dock?appsmarkethint=boat",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-dock/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-dock/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-dock/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-dock/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "boat-dock-wanted",
+        "search-id": "boat-dock-wanted",
+        "search-key": "SEARCH_ID_BOAT_DOCK_WANTED",
+        "label": "Båtplasser ønskes",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/boat-dock-wanted?appsmarkethint=boat",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-dock-wanted/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-dock-wanted/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-dock-wanted/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/boat-dock-wanted/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "market-id": "okonomi",
+    "label": "Økonomi",
+    "type": "external",
+    "link": "https://www.finn.no/okonomi?ov=app"
+  },
+  {
+    "market-id": "mc",
+    "label": "MC",
+    "type": "classified",
+    "submarkets": [
+      {
+        "market-id": "mc-mc",
+        "search-id": "mc",
+        "search-key": "SEARCH_ID_MC_USED",
+        "label": "Motorsykler",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/mc?appsmarkethint=mc",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/mc/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/mc/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/mc/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/mc/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "mc-moped-scooter",
+        "search-id": "moped-scooter",
+        "search-key": "SEARCH_ID_MC_SCOOTER",
+        "label": "Scootere og mopeder",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/moped-scooter?appsmarkethint=mc",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/moped-scooter/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/moped-scooter/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/moped-scooter/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/moped-scooter/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "mc-snowmobile",
+        "search-id": "snowmobile",
+        "search-key": "SEARCH_ID_MC_SNOWMOBILE",
+        "label": "Snøscootere",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/snowmobile?appsmarkethint=mc",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/snowmobile/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/snowmobile/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/snowmobile/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/snowmobile/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      },
+      {
+        "market-id": "mc-atv",
+        "search-id": "atv",
+        "search-key": "SEARCH_ID_MC_ATV",
+        "label": "ATV-er",
+        "selected": false,
+        "links": [
+          {
+            "url": "https://apps.finn.no/api/search/atv?appsmarkethint=mc",
+            "rel": "search"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/atv/filters",
+            "rel": "filters"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/atv/filtersWithMarkets",
+            "rel": "filters-with-markets"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/atv/poi?",
+            "rel": "poi"
+          },
+          {
+            "url": "https://apps.finn.no/api/search/atv/filterConfig",
+            "rel": "filter-config"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "market-id": "bilabonnement",
+    "label": "Bilabonnement",
+    "type": "external",
+    "link": "https://honk.no/?utm_source=finn&utm_medium=app&utm_campaign=internal&ov=app"
+  },
+  {
+    "market-id": "travel-fhh",
+    "label": "Feriehus og hytter til leie",
+    "type": "external",
+    "link": "https://www.finn.no/reise/feriehus-hytteutleie/resultat/"
+  },
+  {
+    "market-id": "nettbil",
+    "label": "Nettbil",
+    "type": "external",
+    "link": "https://www.finn.no/nettbil?utm_source=finn.no&utm_medium=affiliate&ov=app"
+  },
+  {
+    "market-id": "oppdrag",
+    "label": "Mittanbud",
+    "type": "external",
+    "link": "https://www.finn.no/oppdrag?ov=app"
+  }
+]

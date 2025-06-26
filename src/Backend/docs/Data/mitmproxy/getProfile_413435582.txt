@@ -1,0 +1,179 @@
+GET /getProfile?client=AndroidApp&id=413435582 HTTP/1.1
+FINN-GW-Service: NABOLAGSPROFIL
+Host: appsgw.finn.no
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Ab-Test-Device-Id: 58449331-de4e-4192-95bc-eb94903a7c2b
+Feature-Toggles: force-strict-mode-in-debug,debug-button,unit-test_feature_on,assert-utils-crash-on-debug,pulse-unicorn,chucker-network-interceptor,show-homescreen-transparency-dialog,force-search-results-rating-cat,disable-english-formatting,dev_enable_recommerce_upload_photos,recommerce.bet.airpods-warning,apps.android.motor-transaction.search-results-landing-page-entry-pos3,apps.android.job_marketfront.marketing_banner,apps.android.disable_davs,apps.android.adview.realestate-leisure-and-abroad-nam-2-disabled-v2,apps.android.realestate.letting.external.disable,apps.android.realestate.map.pois.disable,apps.android.tjm-process-webview-disabled,apps.android.kindly-chatbot,apps.android.adin-payment-mobilepay,apps.android.set.enable_recommerce_partial_updates_ver2,apps.android.frontpage.categories_explorer,apps.android.frontpage.content_feed_api_v0.kill_switch,apps.android.frontpage.crossbrand_itemtype_support.kill_switch,apps.android.jobapply.nativeform-v3,apps.android.jobapply.nativeform.feedbackbox,apps.android.jobapply.nativeform.recommendationcards,apps.android.mobility.ad_insertion_updated_external_flow,apps.android.mobility.tjm.adin.consent.experiment.disabled,ad_insertion_mvv_wip,apps.android.advertising.enable-gam,apps.android.advertising.tracker-killswitch,apps.android.pulse.event.sent-count-tracking-v1,apps.android.advertising.prebid-config-killswitch,apps.android.advertising.frontpage-killswitch,apps.android.advertising.adnuntius-killswitch,apps.android.advertising.content-marketing-killswitch,apps.android.advertising.content-marketing-normal-text-killswitch,apps.android.advertising.enable-gam-test-campaign,android.rc.item-creation.eid-verification,apps.android.mobility.adinsertion.eid-verification,apps.android.disable-native-recommerce-full-ad-statistics-view,apps.android.disable-native-recommerce-buy-extra-visibility-view,apps.android.job.salary_comparison,apps.android.jobapply.ai-application-letter,tjt.experiment.buy-now-placement,apps.android.set.recommerce-camera-ad-insertion-flow-off,apps.android.set.recommerce_camera_guidance_off,apps.android.set.recommerce_camera_category_attribute_predictions_off,apps.android.tcf-disable-v2,apps.android.search-location-persistence,apps.android.enable_in_app_review,apps.android.review-feedback-enable-v2,apps.android.rating-feedback-enable-v2,advertising-android-killswitch,apps.android.disable-content-card,apps.android.realestate.hybrid-realtor-profiles,apps.android.mobility-landingpage-disabled-v1,apps.android-semantic-search.dev,apps.android.recom-discovery-explore-deeplink,job.android.marketfront.ai-search-entry,apps.android.recommerce-search-result-item-new-design,apps.android.recommerce.sort-filter.callout,apps.android.brand-nav.enable-follow
+Build-Type: release
+User-Agent: FinnApp_And/250616-85b30270 (Linux; U; Android 12; nb_no; sdk_gphone64_x86_64 Build/SE1A.220826.008) FINNNativeApp(UA spoofed for tracking) FinnApp_And
+FINN-Device-Info: Android, mobile
+VersionCode: 1004586734
+Session-Id: 205875f4-9606-48ad-8bd3-5f6ed424f164
+Visitor-Id: 58449331-de4e-4192-95bc-eb94903a7c2b
+FINN-App-Installation-Id: 58449331-de4e-4192-95bc-eb94903a7c2b
+x-finn-apps-adinput-version-name: viewings
+X-FINN-API-Version: 5
+X-FINN-API-Feature: 7,9,13,15,16,17,18,21,22,24,26,28,29,30,33,31,32,36,37,34,35,40,42,43,38,44,45,48,20,49,50
+x-nmp-os-name: Android
+x-nmp-os-version: 12
+x-nmp-device: sdk_gphone64_x86_64
+x-nmp-app-brand: finn
+x-nmp-app-version-name: 250616-85b30270
+x-nmp-app-build-number: 1004586734
+FINN-GW-KEY: wOwU+X2fjVyg4V4wH930ysa4cjWeLj001+Qar836fpgGU3idJzlerVv7WRAoqEGEXPc5V+v7fZBIZUOwEXoSNQ==
+
+
+HTTP/1.1 200 
+etag: W/"1301-4BNGhlOBOiVAXw/d22ro2Q1rZoI"
+access-control-allow-origin: *
+cache-control: max-age=3600, stale-while-revalidate=3600, stale-if-error=259200
+content-encoding: gzip
+date: Wed, 25 Jun 2025 15:12:03 GMT
+x-powered-by: Sails <sailsjs.com>
+vary: FINN-GW-SERVICE
+content-type: application/json;charset=utf-8
+transfer-encoding: chunked
+strict-transport-security: max-age=15552000
+
+
+{
+    "heading": "Om nabolaget",
+    "version": "finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c",
+    "readMoreLinkTextShort": "Utforsk",
+    "readMoreLinkTextLong": "Utforsk",
+    "readMoreLink": "https://www.finn.no/areaprofile/413435582?utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=readMore&app=1",
+    "cards": [
+        {
+            "type": "POI",
+            "data": {
+                "title": "Kort gangavstand til offentlig transport",
+                "linkText": "Mer om transport",
+                "linkPath": "https://www.finn.no/areaprofile/413435582/transport?scrollToId=transport&utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=publicTransport&app=1",
+                "pois": [
+                    {
+                        "name": "Buss",
+                        "id": "Knhh3TaWWRa0MYkCyI1mdSxfmPc=",
+                        "distanceType": "walk",
+                        "distance": "1 min"
+                    },
+                    {
+                        "name": "Sentralstasjon",
+                        "id": "lYSO+swcdDgY7zu4HfG68lXwy2M=",
+                        "distanceType": "walk",
+                        "distance": "7 min"
+                    }
+                ],
+                "svg": "publicTransport"
+            }
+        },
+        {
+            "type": "TEXT",
+            "data": {
+                "title": "Mange unge voksne i nabolaget",
+                "linkText": "Mer om menneskene",
+                "linkPath": "https://www.finn.no/areaprofile/413435582/menneskene?scrollToId=age_distribution&utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=age&app=1",
+                "svg": "youngAdults",
+                "content": [
+                    "43% i nabolaget mot",
+                    "22% i Stavanger"
+                ]
+            }
+        },
+        {
+            "type": "TEXT",
+            "data": {
+                "title": "Nabolaget er spesielt anbefalt for",
+                "linkText": "Hva mer mener de lokalkjente?",
+                "linkPath": "https://www.finn.no/areaprofile/413435582?scrollToId=ratings&utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=recommendedFor&app=1",
+                "content": [
+                    "Enslige",
+                    "Studenter",
+                    "Godt voksne"
+                ],
+                "svg": "recommended"
+            }
+        },
+        {
+            "type": "NO-CONTENT",
+            "data": {
+                "title": "Hva er beste transportalternativ til jobben min?",
+                "linkText": "Finn reisetider",
+                "linkPath": "https://www.finn.no/areaprofile/413435582/reisetid?utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=travelTime&app=1",
+                "svg": "stopwatch",
+                "alternativeBanner": "travelTimeBanner"
+            }
+        },
+        {
+            "type": "NO-CONTENT",
+            "data": {
+                "title": "Gangavstand til universitet/h\u00f8yskole",
+                "linkText": "Sjekk avstand til de n\u00e6rmeste",
+                "linkPath": "https://www.finn.no/areaprofile/413435582/menneskene?scrollToId=higheducation&utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=university&app=1",
+                "svg": "university"
+            }
+        },
+        {
+            "type": "NO-CONTENT",
+            "data": {
+                "title": "Nabolaget oppleves som veldig trygt",
+                "linkText": "Hva mer mener de lokalkjente?",
+                "linkPath": "https://www.finn.no/areaprofile/413435582?scrollToId=ratings&utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=safetyRatings&app=1",
+                "svg": "safeNeighborhood"
+            }
+        },
+        {
+            "type": "POI",
+            "data": {
+                "title": "Umiddelbar n\u00e6rhet til butikk",
+                "linkText": "Mer om handel",
+                "linkPath": "https://www.finn.no/areaprofile/413435582/handel?scrollToId=groceries&utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=shopping&app=1",
+                "pois": [
+                    {
+                        "name": "Dagligvare",
+                        "id": "7kDuku8aH1/OxucYtjwceuvT/0I=",
+                        "distanceType": "walk",
+                        "distance": "2 min"
+                    },
+                    {
+                        "name": "Kj\u00f8pesenter",
+                        "id": "iXrFxSHq6O1Bdya9dFOhOImgO2o=",
+                        "distanceType": "walk",
+                        "distance": "2 min"
+                    }
+                ],
+                "svg": "store"
+            }
+        },
+        {
+            "type": "NO-CONTENT",
+            "data": {
+                "title": "Sammenlign nabolaget med der du bor i dag?",
+                "linkText": "G\u00e5 til sammenligning",
+                "linkPath": "https://www.finn.no/areaprofile/413435582/sammenlign?utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=comparison&app=1",
+                "svg": "compare"
+            }
+        },
+        {
+            "type": "BUTTON",
+            "data": {
+                "title": "Vil du se hele oversikten?",
+                "linkText": "Utforsk nabolaget",
+                "linkPath": "https://www.finn.no/areaprofile/413435582?utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=general&app=1",
+                "svg": "houseWeather"
+            }
+        }
+    ],
+    "banners": [
+        {
+            "name": "travelTimeBanner",
+            "data": {
+                "text": "<strong>Konstant st\u00f8y fra naboen?</strong><br/>Gi oss din vurdering av nabolaget ditt!",
+                "linkText": "Delta her",
+                "linkPath": "https://finn.no/nabolag/sporsmal?utm_source=finn.no/AndroidApp&utm_medium=realestate-homes&utm_campaign=NP&utm_term=fwa-finn-widget-api:p.63:2827ee9120b957a9bced23d029fe60c203c8fc9c&utm_content=banner-stoy&app=1",
+                "svg": "neighborhood",
+                "buttonClass": "bannerBtnFlexBasis110"
+            }
+        }
+    ]
+}

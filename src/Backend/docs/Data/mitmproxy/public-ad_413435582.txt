@@ -1,0 +1,152 @@
+GET /public-ad/413435582 HTTP/1.1
+FINN-GW-Service: COMPANY-PROFILE
+Host: appsgw.finn.no
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Ab-Test-Device-Id: 58449331-de4e-4192-95bc-eb94903a7c2b
+Feature-Toggles: force-strict-mode-in-debug,debug-button,unit-test_feature_on,assert-utils-crash-on-debug,pulse-unicorn,chucker-network-interceptor,show-homescreen-transparency-dialog,force-search-results-rating-cat,disable-english-formatting,dev_enable_recommerce_upload_photos,recommerce.bet.airpods-warning,apps.android.motor-transaction.search-results-landing-page-entry-pos3,apps.android.job_marketfront.marketing_banner,apps.android.disable_davs,apps.android.adview.realestate-leisure-and-abroad-nam-2-disabled-v2,apps.android.realestate.letting.external.disable,apps.android.realestate.map.pois.disable,apps.android.tjm-process-webview-disabled,apps.android.kindly-chatbot,apps.android.adin-payment-mobilepay,apps.android.set.enable_recommerce_partial_updates_ver2,apps.android.frontpage.categories_explorer,apps.android.frontpage.content_feed_api_v0.kill_switch,apps.android.frontpage.crossbrand_itemtype_support.kill_switch,apps.android.jobapply.nativeform-v3,apps.android.jobapply.nativeform.feedbackbox,apps.android.jobapply.nativeform.recommendationcards,apps.android.mobility.ad_insertion_updated_external_flow,apps.android.mobility.tjm.adin.consent.experiment.disabled,ad_insertion_mvv_wip,apps.android.advertising.enable-gam,apps.android.advertising.tracker-killswitch,apps.android.pulse.event.sent-count-tracking-v1,apps.android.advertising.prebid-config-killswitch,apps.android.advertising.frontpage-killswitch,apps.android.advertising.adnuntius-killswitch,apps.android.advertising.content-marketing-killswitch,apps.android.advertising.content-marketing-normal-text-killswitch,apps.android.advertising.enable-gam-test-campaign,android.rc.item-creation.eid-verification,apps.android.mobility.adinsertion.eid-verification,apps.android.disable-native-recommerce-full-ad-statistics-view,apps.android.disable-native-recommerce-buy-extra-visibility-view,apps.android.job.salary_comparison,apps.android.jobapply.ai-application-letter,tjt.experiment.buy-now-placement,apps.android.set.recommerce-camera-ad-insertion-flow-off,apps.android.set.recommerce_camera_guidance_off,apps.android.set.recommerce_camera_category_attribute_predictions_off,apps.android.tcf-disable-v2,apps.android.search-location-persistence,apps.android.enable_in_app_review,apps.android.review-feedback-enable-v2,apps.android.rating-feedback-enable-v2,advertising-android-killswitch,apps.android.disable-content-card,apps.android.realestate.hybrid-realtor-profiles,apps.android.mobility-landingpage-disabled-v1,apps.android-semantic-search.dev,apps.android.recom-discovery-explore-deeplink,job.android.marketfront.ai-search-entry,apps.android.recommerce-search-result-item-new-design,apps.android.recommerce.sort-filter.callout,apps.android.brand-nav.enable-follow
+Build-Type: release
+User-Agent: FinnApp_And/250616-85b30270 (Linux; U; Android 12; nb_no; sdk_gphone64_x86_64 Build/SE1A.220826.008) FINNNativeApp(UA spoofed for tracking) FinnApp_And
+FINN-Device-Info: Android, mobile
+VersionCode: 1004586734
+Session-Id: 205875f4-9606-48ad-8bd3-5f6ed424f164
+Visitor-Id: 58449331-de4e-4192-95bc-eb94903a7c2b
+FINN-App-Installation-Id: 58449331-de4e-4192-95bc-eb94903a7c2b
+x-finn-apps-adinput-version-name: viewings
+X-FINN-API-Version: 5
+X-FINN-API-Feature: 7,9,13,15,16,17,18,21,22,24,26,28,29,30,33,31,32,36,37,34,35,40,42,43,38,44,45,48,20,49,50
+x-nmp-os-name: Android
+x-nmp-os-version: 12
+x-nmp-device: sdk_gphone64_x86_64
+x-nmp-app-brand: finn
+x-nmp-app-version-name: 250616-85b30270
+x-nmp-app-build-number: 1004586734
+FINN-GW-KEY: YmOlxTQC0OsttwjSLr+J/rvAwXVaTSO8qklNaUVtucTFfcI3fsFuzAvPqZkxR2ew/I8hyleYvUV28iKgsFaaHA==
+
+
+HTTP/1.1 200 
+date: Wed, 25 Jun 2025 15:12:02 GMT
+server: Warp/3.3.31
+vary: FINN-GW-SERVICE
+content-type: application/json;charset=utf-8
+transfer-encoding: chunked
+strict-transport-security: max-age=15552000
+content-encoding: gzip
+vary: Accept-Encoding
+
+
+{
+    "adId": 413435582,
+    "basicProfile": {
+        "contacts": [
+            {
+                "email": "haferkamp@privatmegleren.no",
+                "name": "Stine Haferkamp",
+                "phone": [
+                    "93 60 97 29"
+                ],
+                "phonesWithLabels": [
+                    {
+                        "label": "MobilePhone",
+                        "phone": "93 60 97 29"
+                    }
+                ],
+                "title": "Partner/Eiendomsmegler/Daglig leder",
+                "url": "https://www.privatmegleren.no"
+            }
+        ],
+        "homepageUrl": "http://www.privatmegleren.no",
+        "logo": "https://images.finncdn.no/mmo/logo/object/1919990468/iad_6482820161966475212haferkamp-partnere_kobberlogo-til-finn_no.png",
+        "orgId": 1919990468,
+        "orgName": "PrivatMegleren Haferkamp & Partnere",
+        "resultLogo": "https://images.finncdn.no/dynamic/1280w/logo/cp/1919990468/20221020/ac5e1449-a713-4266-b8c9-7da17e736c1e",
+        "suppressMoreAdsFrom": true
+    },
+    "brandProfile": {
+        "contentModule": {
+            "articles": [
+                {
+                    "heading": "Detaljene som selger",
+                    "ingress": "Gjennom bevisste valg og dedikasjon til detaljer, kan et hjem virkelig skinne og tiltrekke seg de rette kj\u00f8perne. \n\nFor det er detaljene som selger.",
+                    "link": {
+                        "active": true,
+                        "text": "Bli inspirert",
+                        "url": "https://privatmegleren.no/kampanje/detaljene-som-selger?utm_source=Finn&utm_medium=Visning&utm_content=5356&utm_campaign=Detaljene_som_selger&utm_term=Detaljene_som_selger&pm=5356"
+                    },
+                    "media": {
+                        "mediaType": "Image",
+                        "url": "https://images.finncdn.no/dynamic/1280w/2024/3/companyprofile-brandprofile-contentmodule/12/9/160/210/973/9_2042011001.jpg"
+                    }
+                },
+                {
+                    "heading": "Boligsalg med Presisjon",
+                    "ingress": "Ingen boligkj\u00f8pere er like, derfor b\u00f8r ingen boligannonser v\u00e6re det heller. For vi forelsker oss i den samme boligen av ulike grunner.\n\n",
+                    "link": {
+                        "active": true,
+                        "text": "Selg bolig med Presisjon",
+                        "url": "https://privatmegleren.no/kampanje/presisjon?utm_source=Finn&utm_medium=Visning&utm_content=5322&utm_campaign=Presisjon&utm_term=&pm=5322"
+                    },
+                    "media": {
+                        "mediaType": "Image",
+                        "url": "https://images.finncdn.no/dynamic/1280w/2024/4/companyprofile-brandprofile-contentmodule/08/9/160/210/973/9_604b8a17-1141-44a2-bf10-e2a47a3368fc.jpg"
+                    }
+                },
+                {
+                    "heading": "Detaljene som selger",
+                    "ingress": "Hjemme bra, men borte best? En attraktiv fritidsbolig er ikke bare en fritidsbolig, det er et hjem borte fra hjemmet. Da m\u00e5 alle detaljer v\u00e6re p\u00e5 plass.",
+                    "link": {
+                        "active": true,
+                        "text": "Bli inspirert",
+                        "url": "https://privatmegleren.no/kampanje/detaljene-som-selger?utm_source=Finn&utm_medium=Visning&utm_content=5356&utm_campaign=Detaljene_som_selger&utm_term=Detaljene_som_selger&pm=5356"
+                    },
+                    "media": {
+                        "mediaType": "Image",
+                        "url": "https://images.finncdn.no/dynamic/1280w/2024/2/companyprofile-brandprofile-contentmodule/21/9/160/210/973/9_1933674087.jpg"
+                    }
+                }
+            ],
+            "backgroundColor": "#262830",
+            "ctaButton": {
+                "backgroundActiveColor": "#c7c5c6",
+                "backgroundColor": "#e5e3e4",
+                "backgroundHoverColor": "#d6d4d5",
+                "borderColor": "#e5e3e4",
+                "textColor": "#171719",
+                "textHoverColor": "#171719"
+            },
+            "logoBackgroundColor": "#262830",
+            "textColor": "#e5e3e4"
+        }
+    },
+    "extendedProfile": {
+        "colors": {
+            "backgroundColor": "#262830",
+            "ctaButtonColor": {
+                "backgroundActiveColor": "#c7c5c6",
+                "backgroundColor": "#e5e3e4",
+                "backgroundHoverColor": "#d6d4d5",
+                "borderColor": "#e5e3e4",
+                "textColor": "#171719",
+                "textHoverColor": "#171719"
+            },
+            "logoBackgroundColor": "#262830",
+            "textColor": "#e5e3e4"
+        },
+        "cta": {
+            "text": "Bestill salgsoppgave",
+            "url": "http://privatmegleren.no/registrerinteressent/301250103"
+        },
+        "customLinks": [
+            {
+                "text": "Nordeas l\u00e5nekalkulator",
+                "url": "https://www.nordea.no/privat/vare-produkter/lan-og-kreditt/boliglan/boliglanskalkulator.html?cid=partner-oo4s5r1ezdqyxstjdna0#/"
+            },
+            {
+                "text": "Selge bolig?",
+                "url": "http://www.privatmegleren.no/verdivurdering"
+            }
+        ],
+        "slogan": "Kun det beste p\u00e5 dine vegne"
+    },
+    "tag": "RealEstate"
+}

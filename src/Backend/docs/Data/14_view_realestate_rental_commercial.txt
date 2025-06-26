@@ -1,0 +1,86 @@
+Note: Unnecessary use of -X or --request, GET is already inferred.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host appsgw.finn.no:443 was resolved.
+* IPv6: (none)
+* IPv4: 35.228.105.46
+*   Trying 35.228.105.46:443...
+* ALPN: curl offers http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+*  CAfile: C:\OSGeo4W\bin\curl-ca-bundle.crt
+*  CApath: none
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [108 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [2578 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256 / prime256v1 / rsaEncryption
+* ALPN: server accepted http/1.1
+* Server certificate:
+*  subject: CN=appsgw.finn.no
+*  start date: Jun 22 12:55:35 2025 GMT
+*  expire date: Sep 20 12:55:34 2025 GMT
+*  subjectAltName: host "appsgw.finn.no" matched cert's "appsgw.finn.no"
+*  issuer: C=US; O=Let's Encrypt; CN=R11
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha256WithRSAEncryption
+* Connected to appsgw.finn.no (35.228.105.46) port 443
+* using HTTP/1.x
+} [5 bytes data]
+> GET /adview/376356928 HTTP/1.1
+> Host: appsgw.finn.no
+> Accept: */*
+> Connection: Keep-Alive
+> Accept-Encoding: gzip
+> Ab-Test-Device-Id: 7336f13b-fb7e-4743-a036-9dd2a5feb86b
+> Feature-Toggles: force-strict-mode-in-debug,debug-button,pulse-unicorn,show-homescreen-transparency-dialog,apps.android.messaging.new-ui,force-search-results-rating-cat,apps.android.display-easter-eggs,apps.android.enable-glimr-ads,apps.android.enable-content-marketing-webview,apps.android.banner-ad-lazy-load-search-result,apps.android.native-app-feedback,apps.android.christmas_splash,apps.android.favorites.christmas_list,apps.android.bottombar.pride,apps.android.braze-content-cards,apps.android.motor-transaction.search-results-landing-page-entry-pos3,apps.android.campaign.job.saveSearch,apps.android.campaign.job.candidateProfile,apps.android.feature.motor.displayAdPosition,apps.android.disable_shipping_page,apps.android.disable_davs,apps.android.realestate_show_old_company_profile,apps.android.bap_staggered_grid_xml,apps.android.adview.realestate-nam-2-disabled-v2,apps.android.tjt-banner-disabled,apps.android.tjt-insurance,apps.android.makeofferflow.version_2.insurance,apps.android.set.sms_autofill,apps.android.set.show_adadmin_transaction_link,apps.android.job.candidateProfile.paywall.recommendations,apps.android.set.adinsertion_satisfaction_survey,transaction-journey-motor.experiments.shared,apps.android.job-profile-promo-text-experiment,apps.android.object-page-ad-load-offset,apps.android.result-page-ad-load-offset,apps.android.makeofferflow.version_2
+> Build-Type: release
+> User-Agent: FinnApp_And/230707-6e39e03 (Linux; U; Android 9; nb_no; Redmi Note 8 Build/PKQ1.190616.001) FINNNativeApp(UA spoofed for tracking) FinnApp_And
+> FINN-Device-Info: Android, mobile
+> VersionCode: 1003572197
+> Session-Id: c2b5d205-4f68-444c-bd05-bbae06c46e9c
+> Visitor-Id: 7336f13b-fb7e-4743-a036-9dd2a5feb86b
+> FINN-App-Installation-Id: 7336f13b-fb7e-4743-a036-9dd2a5feb86b
+> X-FINN-API-Version: 5
+> X-FINN-API-Feature: 7,9,13,15,16,17,18,21,22,24,26,28,29,30,33,31,32,36,37,34,35,40,42,43,38,44,45,48,20,49
+> Finn-GW-Service: NAM2
+> FINN-GW-KEY: 5V1DuyBG3qrEeBlL2kO5DKHI289xu7h3Ds8UZtDQXqpFQTqYHZlCFXG5wyyLYpeBS4tZk9V2U/cR6/23+uj+aQ==
+> 
+* Request completely sent off
+{ [5 bytes data]
+< HTTP/1.1 200 
+< date: Mon, 23 Jun 2025 19:11:25 GMT
+< vary: FINN-GW-SERVICE
+< content-type: application/json
+< strict-transport-security: max-age=15552000
+< content-encoding: gzip
+< transfer-encoding: chunked
+< vary: Accept-Encoding
+< 
+{ [1190 bytes data]
+HTTP/1.1 200 
+date: Mon, 23 Jun 2025 19:11:25 GMT
+vary: FINN-GW-SERVICE
+content-type: application/json
+strict-transport-security: max-age=15552000
+content-encoding: gzip
+transfer-encoding: chunked
+vary: Accept-Encoding
+
+{"ad":{"floor":0,"title":"Flotte kontorlokaler i historisk villa nær Teie torg – 33k / mnd for hele arealet","images":[{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_eb3413dc-a820-4029-b0dd-fe197af8ce4d.jpg","width":1600,"height":1200,"description":"Oversiktsbilde av området"},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_6d7f4dde-f502-4c74-a5e9-d64f47801772.jpg","width":1600,"height":1068,"description":"Kontor 1. etg."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_ef22c6df-47cd-4d50-b666-5f61fcb178a1.jpg","width":1600,"height":1068,"description":"Kontor 1. etg."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_ddaed925-38f4-44f9-84c3-8aa8d9bc840f.jpg","width":1600,"height":1068,"description":"Kontor 1. etg."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_6e0dfad3-6616-4053-b230-cb20c8f77320.jpg","width":1600,"height":1068,"description":"Det største kontoret (i 1. etg) er todelt av en flott glassvegg i sort smijern med skyvedør, med mulighet for ytterligere kontorplasser eller møterom."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_2c8f2aad-07d1-4d4d-92c3-ce9390cfc328.jpg","width":1600,"height":1068,"description":"Et lite møterom i 1. etg."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_da38e786-6d0d-4330-a6d3-44d5b9eabc41.jpg","width":1600,"height":1068,"description":"Et lite møterom i 1. etg."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_d9d669dc-abbb-4aa9-b785-e2e29122e8a1.jpg","width":1600,"height":1068,"description":"Stort møterom i underetasjen med store vinduer og naturlig lys."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_7f739d47-9ded-4dfc-9851-77329c38d55c.jpg","width":1600,"height":1068,"description":"Næringsdelen er i første etasje og i hele underetasjen. I underetasjen ligger et kjøkken, toalettrom, dusjrom, spiserom, møterom/kontor og et trimrom."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_d9d4e8e7-c5f7-411c-b611-26e7bef4eead.jpg","width":1280,"height":960,"description":"Oversiktsbilde av området"},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_8696b94f-b450-41f6-abe4-d55bdd5f93a4.jpg","width":1600,"height":1200,"description":"Oversiktsbilde av området"},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_2255204b-c981-480f-b6b5-7e3115440dcc.jpg","width":1600,"height":1068,"description":"Stor parkeringsplass på baksiden av huset som disponeres fullt ut."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_af8de791-28d4-47c8-b0d8-026271e2f322.jpg","width":1600,"height":1200,"description":"Oversiktsbilde av området"},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_5bf189c6-64e8-4554-b368-a674a67719f4.jpg","width":1600,"height":1068,"description":"Parkeringsplass / uteområde"},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_5cae3ad5-e321-41bc-9a72-5ab47ca158f7.jpg","width":1600,"height":1068,"description":"Godt med parkeringsplasser på utsiden."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_e65c4ce3-737e-46d8-a834-0c29930c0f5a.jpg","width":1600,"height":1068,"description":"Villaen sett fra innkjørselen."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_cab9421d-1aa7-4b63-9a8c-34969287675b.jpg","width":1600,"height":1200,"description":"Oversiktsbilde av villaen. Bakre del av 1. etg. og underetasjen er næringsdelen."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_5fcd4bae-1e9f-427a-9add-4295b1e35b58.jpg","width":242,"height":640,"description":"Plantegning 1. etg."},{"uri":"https://images.finncdn.no/dynamic/default/2024/10/vertical-0/19/8/376/356/928_c5120c3e-3d81-4b1e-aa5b-9e078ed0e8c1.jpg","width":1131,"height":1600,"description":"Plantegning U. etg."}],"contact":[{"mobile":"91300001"}],"disposed":false,"location":{"position":{"lat":59.25476017022887,"lng":10.422254417916875,"links":{"norortho":{"uri":"https://www.finn.no/map?adId=376356928&lat=59.25476017022887&lon=10.422254417916875&zoom=14&showPin=true","title":"Flyfoto"},"finnhybrid":{"uri":"https://www.finn.no/map?adId=376356928&lat=59.25476017022887&lon=10.422254417916875&zoom=14&showPin=true","title":"Hybridkart"},"finnvector":{"uri":"https://www.finn.no/map?adId=376356928&lat=59.25476017022887&lon=10.422254417916875&zoom=14&showPin=true","title":"Stort kart"}},"accuracy":9,"mapImage":"https://maptiles.finncdn.no/staticmap?lat=59.25476017022887&lng=10.422254417916875&zoom=14&size=400x300&maptype=norwayVector&showPin=true"},"postalCode":"3120","postalName":"Nøtterøy","countryCode":"NO","countryName":"Norge","streetAddress":"ØRSNESALLEEN 17"},"viewings":[{"note":"Ta kontakt for visning."}],"anonymous":true,"areaRange":{"areaTo":320,"areaFrom":320},"cadastres":[],"documents":[],"adViewType":"realestate-business-letting","facilities":["Aircondition","Garasje/P-plass"],"floorplans":[],"acquisition":{"from":"01.07.2025","fromIso":"2025-07-01"},"generalText":[],"accessUnsafe":"Kontorlokalene ligger i en flott villa med enkel tilgang både med bil og kollektivtransport. Det er inkludert ca. 20 parkeringsplasser ute og 2 i garasje. Nærmeste busstopp er kun få minutters gange unna, noe som gjør adkomsten praktisk for både ansatte og besøkende. Villaens beliggenhet i et rolig område sørger for en behagelig ankomstopplevelse, med kort vei til viktige knutepunkter i byen.","officeSpaces":9,"parkingSpots":20,"propertyInfo":[{"title":"Om eiendommen","isHtml":true,"content":"Ønsker du kontorlokaler med sjel og historie? Denne flotte villaen, med nærhet til Teie torg og kort vei til Tønsberg sentrum, gir deg den perfekte kombinasjonen av moderne komfort og historisk sjarm. Villaen har en imponerende merittliste med tidligere leietakere som Uniweb, Vestfold Butikkdata, Hesnes Shipping og selveste hovedkontoret til Wilhelmsen. Her får du kontorer med suksessfull &#34;karma&#34;.<br /><br />Kontorlokalene er nylig oppusset med en moderne og stilren atmosfære, preget av relativt mørke farger som gir et eksklusivt uttrykk. Det er både åpne kontorlandskap og separate møterom, tilpasset ulike behov. Fasilitetene inkluderer fiberinternett, aircondition, effektiv LED-belysning og god ventilasjon for et komfortabelt og produktivt arbeidsmiljø.<br /><br />Det finnes også et felles kjøkken med matlagingsmuligheter og toaletter for brukerne av lokalene. Parkeringsplasser er tilgjengelige for både ansatte og besøkende.<br /><br />Med enkel adkomst og flotte omgivelser nær Teie torg, ligger alt til rette for at du kan skape et trivelig arbeidsmiljø for deg og dine ansatte."},{"title":"Beliggenhet","isHtml":true,"content":"Villaen har en attraktiv beliggenhet i et rolig og sentralt område, like i nærheten av Teie torg. Området er kjent for sitt grønne og tilbaketrukne preg, samtidig som det er kort vei til Tønsberg sentrum og byens fasiliteter. Teie torg tilbyr et utvalg av kafeer, restauranter og butikker, noe som gjør det praktisk for både arbeid og sosiale aktiviteter. Beliggenheten gir også enkel tilgang til kollektivtransport, noe som gjør villaen lett tilgjengelig for både ansatte og besøkende."},{"title":"Adkomst","isHtml":true,"content":"Kontorlokalene ligger i en flott villa med enkel tilgang både med bil og kollektivtransport. Det er inkludert ca. 20 parkeringsplasser ute og 2 i garasje. Nærmeste busstopp er kun få minutters gange unna, noe som gjør adkomsten praktisk for både ansatte og besøkende. Villaens beliggenhet i et rolig område sørger for en behagelig ankomstopplevelse, med kort vei til viktige knutepunkter i byen."},{"title":"Standard","isHtml":true,"content":"Kontorlokalene holder en god standard som gir en moderne og stilren atmosfære. Lokalene er nylig oppusset med en kombinasjon av tradisjonell sjarm og moderne detaljer, som skaper et trivelig arbeidsmiljø. Rominndelingen er effektiv, med både åpne kontorlandskap og møterom. Tekniske fasiliteter inkluderer:<br />- Aircondition for komfortabel temperatur hele året.<br />- Moderne belysning med energieffektive LED-armaturer.<br />- God ventilasjon som sikrer et sunt innemiljø.<br />- Parkeringsplasser tilgjengelig for ansatte og besøkende.<br /><br />I tillegg er det et felles kjøkken med fasiliteter for matlaging, samt toaletter tilgjengelig for brukere av lokalene.<br /><br />Ønskes tilpasninger på maling / fargevalg, er dette også mulig å bli enige om."}],"propertyType":["Kontor"],"moreInfoLinks":[],"renovatedYear":2023,"adViewTypeLabel":"Næringseiendom til leie","conditionUnsafe":"Kontorlokalene holder en god standard som gir en moderne og stilren atmosfære. Lokalene er nylig oppusset med en kombinasjon av tradisjonell sjarm og moderne detaljer, som skaper et trivelig arbeidsmiljø. Rominndelingen er effektiv, med både åpne kontorlandskap og møterom. Tekniske fasiliteter inkluderer:<br />- Aircondition for komfortabel temperatur hele året.<br />- Moderne belysning med energieffektive LED-armaturer.<br />- God ventilasjon som sikrer et sunt innemiljø.<br />- Parkeringsplasser tilgjengelig for ansatte og besøkende.<br /><br />I tillegg er det et felles kjøkken med fasiliteter for matlaging, samt toaletter tilgjengelig for brukere av lokalene.<br /><br />Ønskes tilpasninger på maling / fargevalg, er dette også mulig å bli enige om.","situationUnsafe":"Villaen har en attraktiv beliggenhet i et rolig og sentralt område, like i nærheten av Teie torg. Området er kjent for sitt grønne og tilbaketrukne preg, samtidig som det er kort vei til Tønsberg sentrum og byens fasiliteter. Teie torg tilbyr et utvalg av kafeer, restauranter og butikker, noe som gjør det praktisk for både arbeid og sosiale aktiviteter. Beliggenheten gir også enkel tilgang til kollektivtransport, noe som gjør villaen lett tilgjengelig for både ansatte og besøkende."},"meta":{"adId":376356928,"mode":"PLAY","edited":"2025-06-23T19:08:45.472571+02:00","history":[{"mode":"PLAY","version":"58.1","broadcasted":"2024-10-29T10:41:31.860514+01:00"},{"mode":"PLAY","version":"59.2","broadcasted":"2024-10-30T16:41:46.215156+01:00"},{"mode":"PLAY","version":"59.1","broadcasted":"2024-10-30T16:41:46.821118+01:00"},{"mode":"PAUSE","version":"59.3","broadcasted":"2024-12-13T10:44:12.802987+01:00"},{"mode":"STOP","version":"64.2","broadcasted":"2025-01-13T13:59:20.277076+01:00"},{"mode":"STOP","version":"64.1","broadcasted":"2025-01-13T13:59:20.305928+01:00"},{"mode":"STOP","version":"69.1","broadcasted":"2025-04-02T09:50:56.518708+02:00"},{"mode":"STOP","version":"69.2","broadcasted":"2025-04-02T09:54:44.187569+02:00"},{"mode":"PLAY","version":"69.3","broadcasted":"2025-04-02T09:58:21.53844+02:00"},{"mode":"STOP","version":"70.1","broadcasted":"2025-04-05T21:19:19.046076+02:00"},{"mode":"PLAY","version":"70.3","broadcasted":"2025-04-05T21:19:55.538482+02:00"},{"mode":"PLAY","version":"70.2","broadcasted":"2025-04-05T21:19:55.615865+02:00"},{"mode":"PAUSE","version":"70.4","broadcasted":"2025-06-01T10:00:07.820305+02:00"},{"mode":"STOP","version":"72.1","broadcasted":"2025-06-23T19:10:37.555834+02:00"},{"mode":"STOP","version":"72.2","broadcasted":"2025-06-23T19:11:43.549142+02:00"},{"mode":"PLAY","version":"72.3","broadcasted":"2025-06-23T19:12:34.55193931+02:00"}],"ownerId":0,"version":"72.3","occurred":"2025-06-23T19:12:34.551939310+02:00","ownerUrn":"sdrn:finn:user:0","schemaName":"realestate-business-letting","schemaVersion":"0.13.1"}}

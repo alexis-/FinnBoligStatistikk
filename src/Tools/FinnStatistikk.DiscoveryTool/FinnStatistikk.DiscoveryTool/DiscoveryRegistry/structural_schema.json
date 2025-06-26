@@ -1,0 +1,343 @@
+{
+  "schemas": [
+    "realestate-home",
+    "realestate-development-project",
+    "recommerce-sell"
+  ],
+  "paths": {
+    "$": [
+      "ad",
+      "banners",
+      "cards",
+      "docs",
+      "filters",
+      "heading",
+      "meta",
+      "metadata",
+      "readMoreLink",
+      "version"
+    ],
+    "$.*": [
+      "externalLink",
+      "label",
+      "link",
+      "links",
+      "market-id",
+      "search-id",
+      "search-key",
+      "selected",
+      "submarkets",
+      "type"
+    ],
+    "$.*.links[*]": [
+      "rel",
+      "url"
+    ],
+    "$.ad": [
+      "adViewType",
+      "cadastres",
+      "category",
+      "condition",
+      "constructionYear",
+      "description",
+      "documents",
+      "energyLabel",
+      "extras",
+      "facilities",
+      "floor",
+      "generalText",
+      "images",
+      "location",
+      "ownershipType",
+      "phases",
+      "plot",
+      "price",
+      "projectName",
+      "propertyInfo",
+      "propertyType",
+      "regulations",
+      "rooms",
+      "bedrooms",
+      "size",
+      "title",
+      "viewings"
+    ],
+    "$.ad.cadastres[*]": [
+      "landNumber",
+      "municipalityNumber",
+      "titleNumber"
+    ],
+    "$.ad.category": [
+      "id",
+      "parent",
+      "value"
+    ],
+    "$.ad.category.parent": [
+      "id",
+      "parent",
+      "value"
+    ],
+    "$.ad.condition": [
+      "id",
+      "value"
+    ],
+    "$.ad.energyLabel": [
+      "class",
+      "color"
+    ],
+    "$.ad.extras[*]": [
+      "id",
+      "label",
+      "value",
+      "valueId"
+    ],
+    "$.ad.generalText[*]": [
+      "heading",
+      "textUnsafe"
+    ],
+    "$.ad.images[*]": [
+      "aspect_ratio",
+      "description",
+      "height",
+      "path",
+      "url",
+      "width"
+    ],
+    "$.ad.location": [
+      "position",
+      "postalCode",
+      "postalName",
+      "streetAddress"
+    ],
+    "$.ad.location.position": [
+      "accuracy",
+      "lat",
+      "lng",
+      "links"
+    ],
+    "$.ad.location.position.links.*": [
+      "title",
+      "uri"
+    ],
+    "$.ad.phases": [
+      "acquisition",
+      "current",
+      "development_start",
+      "planning",
+      "sale_start"
+    ],
+    "$.ad.plot": [
+      "area",
+      "owned"
+    ],
+    "$.ad.price": [
+      "currency",
+      "estimatedValue",
+      "salesCostIncludesUnsafe",
+      "salesCostSum",
+      "suggestion",
+      "total"
+    ],
+    "$.ad.propertyInfo[*]": [
+      "content",
+      "heading",
+      "isHtml",
+      "textUnsafe",
+      "title"
+    ],
+    "$.ad.size": [
+      "descriptionUnsafe",
+      "primary",
+      "usable"
+    ],
+    "$.ad.viewings[*]": [
+      "date",
+      "dateIso",
+      "from",
+      "note",
+      "to"
+    ],
+    "$.banners[*]": [
+      "data",
+      "name"
+    ],
+    "$.banners[*].data": [
+      "buttonClass",
+      "linkPath",
+      "linkText",
+      "svg",
+      "text"
+    ],
+    "$.cards[*]": [
+      "data",
+      "type"
+    ],
+    "$.cards[*].data": [
+      "alternativeBanner",
+      "linkPath",
+      "linkText",
+      "pois",
+      "svg",
+      "title"
+    ],
+    "$.cards[*].data.pois[*]": [
+      "distance",
+      "distanceType",
+      "name"
+    ],
+    "$.docs[*]": [
+      "ad_id",
+      "ad_type",
+      "area",
+      "area_plot",
+      "area_range",
+      "bedrooms_range",
+      "canonical_url",
+      "coordinates",
+      "extras",
+      "flags",
+      "heading",
+      "id",
+      "image",
+      "image_urls",
+      "labels",
+      "local_area_name",
+      "location",
+      "logo",
+      "main_search_key",
+      "number_of_bedrooms",
+      "organisation_name",
+      "owner_type_description",
+      "price_range_suggestion",
+      "price_range_total",
+      "price_shared_cost",
+      "price_suggestion",
+      "price_total",
+      "property_type_description",
+      "styling",
+      "timestamp",
+      "type",
+      "viewing_times"
+    ],
+    "$.docs[*].area": [
+      "description",
+      "size",
+      "unit"
+    ],
+    "$.docs[*].area_plot": [
+      "description",
+      "size",
+      "unit"
+    ],
+    "$.docs[*].area_range": [
+      "description",
+      "size_from",
+      "size_to",
+      "unit"
+    ],
+    "$.docs[*].bedrooms_range": [
+      "end",
+      "start"
+    ],
+    "$.docs[*].coordinates": [
+      "accuracy",
+      "lat",
+      "lon"
+    ],
+    "$.docs[*].image": [
+      "aspect_ratio",
+      "height",
+      "path",
+      "url",
+      "width"
+    ],
+    "$.docs[*].labels[*]": [
+      "id",
+      "text",
+      "type"
+    ],
+    "$.docs[*].logo": [
+      "path",
+      "url"
+    ],
+    "$.docs[*].price_range_suggestion": [
+      "amount_from",
+      "amount_to",
+      "currency_code"
+    ],
+    "$.docs[*].price_range_total": [
+      "amount_from",
+      "amount_to",
+      "currency_code"
+    ],
+    "$.docs[*].price_shared_cost": [
+      "amount",
+      "currency_code",
+      "price_unit"
+    ],
+    "$.docs[*].price_suggestion": [
+      "amount",
+      "currency_code",
+      "price_unit"
+    ],
+    "$.docs[*].price_total": [
+      "amount",
+      "currency_code",
+      "price_unit"
+    ],
+    "$.meta": [
+      "adId",
+      "edited",
+      "history",
+      "occurred",
+      "ownerId",
+      "ownerUrn",
+      "schemaName",
+      "schemaVersion",
+      "version"
+    ],
+    "$.meta.history[*]": [
+      "broadcasted",
+      "mode",
+      "version"
+    ],
+    "$.metadata": [
+      "is_end_of_paging",
+      "num_results",
+      "paging",
+      "params",
+      "result_size",
+      "search_key",
+      "sort",
+      "timestamp",
+      "title",
+      "tracking",
+      "uuid",
+      "vertical"
+    ],
+    "$.metadata.paging": [
+      "current",
+      "last",
+      "param"
+    ],
+    "$.metadata.result_size": [
+      "group_count",
+      "match_count"
+    ],
+    "$.metadata.tracking": [
+      "object",
+      "vertical"
+    ],
+    "$.metadata.tracking.object": [
+      "layout",
+      "numItems",
+      "pageNumber",
+      "sortingType",
+      "type"
+    ],
+    "$.metadata.tracking.vertical": [
+      "name",
+      "subVertical"
+    ]
+  }
+}
